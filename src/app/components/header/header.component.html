@@ -1,0 +1,43 @@
+<!---HEADER START
+          ==================================-->
+<header id="header" class="main-header">
+    <nav class="main-nav nav-expanded">
+        <div class="container">
+            <div class="left-nav">
+                    <a href="index.html">
+                        <img class="nav-logo" src="assets/images/logo-wit.png" alt="logo" />
+                    </a>
+
+                <input id="main-menu-state" type="checkbox" />
+                <label class="main-menu-btn" for="main-menu-state">
+                    <span class="main-menu-btn-icon"></span> Toggle main menu
+                    visibility
+                </label>
+                <ul id="main-menu">
+                    @for (item of menu; track item.name) {
+                        <li class="menu-item">
+                            <a class="nav-link" href="{{item.link}}">{{item.name | translate}}</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+
+            <div class="right-nav">
+                <div class="nav-menu">
+                    <div class="contact">
+                        <i class="telp-icon fas fa-phone-alt" style="line-height: 2"></i>
+                        <div class="contact-text">
+                            <span class="text-white small-text">{{'header.menu.call_us_today' | translate}}</span>
+                            <span class="text-white telp-text"><b>(036) 000 0000</b></span>
+                        </div>
+                    </div>
+                    <div class="contact-button">
+                        <a routerLink="/contact" class="button style-1">{{'header.menu.cta' | translate}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+</header>
+<!---EMD HEADER-->

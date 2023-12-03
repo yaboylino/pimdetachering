@@ -1,0 +1,3646 @@
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1080px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .header-shape {
+        width: 420px;
+    }
+
+    .header-swiper .header-title p {
+        font-size: 19px;
+    }
+
+    .header-swiper .header-sub-title {
+        font-size: 38px;
+        line-height: 70px;
+        left: 14%;
+    }
+
+    .header-swiper .header-desc {
+        max-width: 350px;
+    }
+
+    .header-swiper .header-desc p {
+        font-size: 13px;
+    }
+
+    .Appointment::before {
+        border-left: 24vw solid transparent;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header-swiper .header-desc {
+        width: 30%;
+        bottom: 12%;
+    }
+
+    .header-swiper .header-sub-title {
+        font-size: 46px;
+        line-height: 66px;
+        top: 6px;
+    }
+
+    .header-swiper .header-button {
+        bottom: 3%;
+    }
+
+    .header-swiper .swiper-button-next:after {
+        font-size: 25px;
+    }
+
+    .header-swiper .swiper-button-prev:after {
+        font-size: 25px;
+    }
+
+    .header-swiper .swiper-button-next {
+        height: 15%;
+        top: 43%;
+    }
+
+    .header-swiper .swiper-button-prev {
+        height: 15%;
+        top: 43%;
+    }
+
+    .services-text {
+        padding: 0 20px;
+    }
+
+    .service-card-loop {
+        width: 60%;
+    }
+
+    .gMaps #gmap_canvas {
+        height: 600px;
+    }
+
+    .Team {
+        padding: 100px 50px 94px;
+    }
+
+    .team-section-desc {
+        padding: 0;
+    }
+
+    .team-title {
+        margin-top: 0;
+    }
+
+    .Blog {
+        padding: 100px 0 75px;
+    }
+
+    .Blog .card-body {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .service-cards .service-card-body {
+        padding: 0 45px 35px;
+    }
+
+    .blog-loop .card-title {
+        font-size: 20px;
+    }
+
+    .blog-list-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .service-qa-title h2 {
+        line-height: 35px;
+    }
+
+    .blogPost {
+        margin-top: 11%;
+    }
+
+    .team-title hr {
+        width: 25%;
+    }
+
+    .about-team-wrapper {
+        margin-top: 25px;
+    }
+
+    .about-title h3 {
+        font-size: 28px;
+    }
+
+    .Appointment {
+        padding: 100px 0 115px;
+    }
+
+    .services-text {
+        padding: 0 30px 0 15px;
+    }
+
+    .Services-list {
+        padding: 90px 0 70px 0;
+    }
+
+    .team-wrapper {
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    .team-list {
+        padding-left: 30px;
+        padding-right: 0;
+    }
+
+    .Teams .team-list {
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .header-swiper .swiper-button-prev {
+        height: 13%;
+        width: 3%;
+        top: 45%;
+    }
+
+    .header-swiper .swiper-button-next {
+        height: 13%;
+        width: 3%;
+        top: 45%;
+    }
+
+    .header-swiper .swiper-button-prev::after {
+        font-size: 15px;
+    }
+
+    .header-swiper .swiper-button-next::after {
+        font-size: 15px;
+    }
+
+    .about-testimoni-tablet {
+        justify-content: flex-start;
+        padding-left: 55px;
+    }
+
+    .footer-icon-wrapper {
+        display: block;
+    }
+
+    .footer-icon {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .service-card-tablet {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main-header .right-nav {
+        display: none;
+    }
+
+    .main-nav .nav-white-logo {
+        padding: 15px;
+    }
+
+    .header-text {
+        padding: 0 60px 0 69px;
+    }
+
+    .header-swiper .header-title {
+        left: 14%;
+    }
+
+    .header-swiper .header-desc,
+    .header-swiper .header-button {
+        left: 14%;
+    }
+
+    .header-swiper .header-sub-title {
+        font-size: 42px;
+        top: 27px;
+    }
+
+    .header-text.contact-header {
+        padding: 190px 0 120px;
+    }
+
+    .header-text.appointment {
+        padding: 225px 0;
+        background-attachment: unset;
+    }
+
+    .header-desc h1 {
+        font-size: 40px;
+    }
+
+    .header-text.about,
+    .header-text.service,
+    .header-text.contact-header {
+        background-attachment: unset;
+        background-position: center center;
+    }
+
+    .About {
+        padding: 65px 15px 65px 10px;
+    }
+
+    .About-us {
+        padding: 100px 25px 75px 25px;
+    }
+
+    .about-us {
+        margin-left: 0;
+        padding: 15px 15px;
+    }
+
+    .about-name {
+        padding: 0;
+    }
+
+    .signature-img {
+        width: 24%;
+    }
+
+    .about-section {
+        width: 100%;
+    }
+
+    .about-section-title h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    .gallery-section {
+        width: 100%;
+    }
+
+    .img-gallery {
+        margin-right: 0;
+    }
+
+    .gallery-image {
+        width: 98%;
+    }
+
+    .img-gallery-wrap:last-child .img-gallery .gallery-image {
+        margin-left: auto;
+    }
+
+    .img-gallery-wrap:last-child .img-gallery .on-hover-component {
+        right: 0;
+    }
+
+    .on-hover-component {
+        width: 98%;
+    }
+
+    .about-img-tablet {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .about-img-tablet .images {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-text-wrapper {
+        width: 100%;
+    }
+
+    .gallery-section {
+        padding: 0 15px;
+    }
+
+    .about-text {
+        padding: 15px 0;
+    }
+
+    .Services {
+        padding: 70px 25px 105px;
+    }
+
+    .Services-list {
+        padding: 100px 25px 82px;
+    }
+
+    .service-card-tablet {
+        width: 50%;
+    }
+
+    .appointment-services .services-title p {
+        padding: 0 0 10px 0;
+    }
+
+    .services-text {
+        width: 100%;
+    }
+
+    .services-title h3 {
+        max-width: 100%;
+        line-height: 0;
+    }
+
+    .services-text {
+        padding: 0;
+    }
+
+    .service-card-loop {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .services-card:last-child {
+        margin-right: 0;
+    }
+
+    .services-card .card-title {
+        font-size: 18px;
+    }
+
+    .service-cards .service-card-img {
+        height: auto;
+    }
+
+    .service-images .services-card-img {
+        margin-top: 25px;
+    }
+
+    .service-card-title h3 {
+        font-size: 18px;
+    }
+
+    .service-sidebar .container {
+        padding: 0;
+    }
+
+    .card-images {
+        margin-top: 40%;
+    }
+
+    .blog-loop {
+        padding-left: 4px;
+        padding-right: 10px;
+    }
+
+    .blog-loop .card-img-top img {
+        height: auto;
+    }
+
+    .blog-loop-wrapper .card-blog-loop {
+        position: relative;
+        width: 100%;
+    }
+
+    .blog-card .blog-card-img {
+        height: auto;
+    }
+
+    .blog-list-wrapper {
+        width: 50%;
+    }
+
+    .recent-post {
+        padding: 0;
+    }
+
+    .recent-comments {
+        padding: 0;
+    }
+
+    .card-img-top img {
+        height: auto;
+    }
+
+    .appointment-body {
+        width: 100%;
+    }
+
+    .appointment-title {
+        width: 40%;
+        position: relative;
+    }
+
+    .Appointment .left-hr {
+        position: absolute;
+        width: 80px;
+        bottom: 0;
+    }
+
+    .Appointment .main-office,
+    .Appointment .branc-office {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 30%;
+    }
+
+    .appoitnment-form {
+        width: 100%;
+    }
+
+    .appoitnment-form .left-form {
+        width: 50%;
+        float: left;
+    }
+
+    .appoitnment-form .right-form {
+        width: 50%;
+        float: left;
+    }
+
+    .Appointment {
+        height: 900px;
+        padding: 45px 0 115px;
+    }
+
+    .Appointment .desc-wrap {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .left-form,
+    .right-form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .Appointment .map-wrap {
+        width: 100%;
+    }
+
+    .gMaps {
+        position: relative;
+        width: 100%;
+        top: 46px;
+        left: 0;
+    }
+
+    .gMaps #gmap_canvas {
+        height: 595px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .Team .team-section-desc {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .team-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .team-title hr {
+        width: 15%;
+    }
+
+    .team-list {
+        margin-top: 25px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .team-about .team-list {
+        padding: 0 15px;
+    }
+
+    .about-team-wrapper {
+        width: calc(100% / 2);
+        text-align: center;
+    }
+
+    .Teams {
+        padding: 5% 4%;
+    }
+
+    .team-about {
+        padding: 100px 25px 100px 25px;
+    }
+
+    .team-name {
+        font-size: 20px;
+    }
+
+    .about-img-wrapper {
+        width: 100%;
+    }
+
+    .about-us {
+        width: 100%;
+    }
+
+    .Testimoni-img-bg {
+        margin-top: 0;
+        padding: 100px 0;
+    }
+
+    .Testimoni-img-bg .testimoni-title {
+        line-height: 70px;
+        margin-bottom: 60px;
+    }
+
+    .Testimoni-img-bg .slider-wrap {
+        padding: 0;
+    }
+
+    .Testimoni-img-bg .owl-dots {
+        margin-top: 60px;
+    }
+
+    .testimoni-title {
+        text-align: -webkit-center;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 55px;
+    }
+
+    .appointment-testimoni .testimoni-title h3 {
+        line-height: 30px;
+    }
+
+    .testimoni-title p {
+        line-height: 20px;
+    }
+
+    .testimoni-title hr {
+        margin: auto;
+    }
+
+    .appointment-testimoni .testimoni-title hr {
+        margin-top: 25px;
+    }
+
+    .slider-wrap {
+        padding: 0;
+    }
+
+    .appointment-testimoni {
+        padding: 115px 15px 115px;
+    }
+
+    .Partner {
+        padding: 50px 0 40px;
+    }
+
+    .partner-wrapper {
+        display: block;
+        width: 100%;
+    }
+
+    .partner-body {
+        width: 100%;
+        padding: 0;
+    }
+
+    .partner-text {
+        margin-top: 0;
+        text-align: -webkit-center;
+        line-height: 25px;
+    }
+
+    .partner-logo-wrapper {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .logo-wrapper {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .Blog {
+        padding: 60px 0 35px;
+    }
+
+    .Testimoni {
+        padding: 83px 0 85px;
+    }
+
+    .Testimoni-img-bg .testimoni-wrapper {
+        padding: 0;
+    }
+
+    .appointment-text {
+        line-height: 60px;
+    }
+
+    .appointment-text h2 {
+        font-size: 40px;
+    }
+
+    .appointment-text h3 {
+        font-size: 32px;
+    }
+
+    .appointment-button .style-5 {
+        padding: 10px 25px;
+        border: 3px solid #02ad88;
+        font-size: 16px;
+    }
+
+    .side-blog-desc {
+        padding-left: 15px;
+    }
+
+    .office-detail p {
+        font-size: 14px;
+    }
+
+    .information-wrapper {
+        width: 100%;
+        padding: 0;
+    }
+
+    .information-wrapper .info-detail {
+        padding-left: 15px;
+    }
+
+    .detail-tablet-1 {
+        width: 40%;
+    }
+
+    .detail-tablet-2 {
+        width: 25%;
+    }
+
+    .office-site-card {
+        width: 42%;
+        margin-right: 15px;
+    }
+
+    .Contact-detail .column.column-40 {
+        width: 100%;
+    }
+
+    .contact-form-wrap {
+        width: 100%;
+        display: flex;
+        margin-top: 0;
+        padding-right: 5px;
+        box-sizing: border-box;
+    }
+
+    .contact-form {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin-top: 30px;
+        width: 100%;
+        padding: 50px 50px 100px;
+    }
+
+    .GoogleMaps {
+        margin-bottom: 180px;
+    }
+
+    .Contact-detail #id-1 {
+        width: 40%;
+    }
+
+    .office-detail p {
+        font-size: 15px;
+    }
+
+    .info-detail .office-site {
+        font-size: 20px;
+    }
+
+    .style-6 {
+        font-size: 16px;
+    }
+
+    .card-category {
+        top: 97%;
+    }
+
+    .newsletter-form form {
+        width: 63%;
+    }
+
+    .overlay-icon {
+        left: 10px;
+    }
+
+    .service-sidebar {
+        padding-right: 15px;
+    }
+
+    .contact-us {
+        padding: 50px 15px 57px;
+    }
+
+    .Team {
+        padding: 100px 20px 86px 15px;
+    }
+
+    .about-img-wrapper img {
+        width: 100%;
+    }
+
+    .Services-list .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .office-site-card {
+        width: 44%;
+    }
+
+    .office-site-card:last-child {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+
+    .info-detail.detail-tablet-2 {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1000px) {
+    /* testimoni slider */
+    .owl-dots {
+        justify-content: space-between;
+    }
+
+    /* testimoni slider */
+    .services-card-body {
+        padding: 0 10px;
+    }
+
+    .blog-list-wrapper {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    .Blog .card-body {
+        padding: 16px 10px 16px 30px;
+    }
+
+    .user-avatar {
+        margin: auto;
+    }
+
+    .info-detail .office-site {
+        font-size: 24px;
+    }
+
+    .newsletter-title {
+        padding-left: 15px;
+    }
+
+    .newsletter-form {
+        padding-right: 15px;
+    }
+
+    .newsletter-form form {
+        width: 62%;
+    }
+
+    .office-info-wrapper {
+        padding: 0 15px;
+    }
+
+    .office-site-card {
+        width: 42%;
+    }
+
+    .footer-icon-wrapper {
+        margin: 0;
+    }
+
+    .footer-widget {
+        padding: 50px 15px;
+    }
+}
+
+@media (max-width: 950px) {
+    .column {
+        float: none;
+        max-width: 100%;
+    }
+
+    .column-1 {
+        width: 100%;
+    }
+
+    .column-2 {
+        width: 100%;
+    }
+
+    .column-3 {
+        width: 100%;
+    }
+
+    .column-2of3 {
+        width: 100%;
+    }
+
+    .column-4 {
+        width: 100%;
+    }
+
+    .column-5 {
+        width: 100%;
+    }
+
+    .main-nav .nav-menu {
+        display: none;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .menu-item-white {
+        text-align: center;
+        border: none;
+    }
+
+    .nav-menu-white {
+        background-color: #f7f2ef;
+        padding: 15px;
+    }
+
+    .nav-item-white {
+        text-align: center;
+    }
+
+    .nav-item {
+        text-align: center;
+        border-bottom: 1px solid #fff;
+    }
+
+    .menu-item-white {
+        margin-right: 10%;
+    }
+
+    .nav-link {
+        padding: 10px 0;
+    }
+
+    .nav-link-black {
+        padding: 10px 0;
+    }
+
+    .header-shape {
+        width: 415px;
+    }
+
+    .header-swiper .header-title {
+        left: 130px;
+    }
+
+    .header-swiper .header-desc {
+        width: 372px;
+        left: 125px;
+    }
+
+    .header-swiper .header-button {
+        left: 125px;
+        bottom: 3%;
+    }
+
+    .header-swiper .header-sub-title {
+        font-size: 36px;
+        left: 14%;
+    }
+
+    .header-swiper .swiper-button-next {
+        width: 3%;
+    }
+
+    .header-swiper .swiper-button-prev {
+        width: 3%;
+    }
+
+    .header-swiper .swiper-button-next:after {
+        font-size: 20px;
+    }
+
+    .header-swiper .swiper-button-prev:after {
+        font-size: 20px;
+    }
+
+    .header-swiper .swiper-button-next {
+        height: 15%;
+        top: 43%;
+    }
+
+    .header-swiper .swiper-button-prev {
+        height: 15%;
+        top: 43%;
+    }
+
+    .service-card-desc p {
+        font-size: 14px;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .gallery {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .images {
+        height: 375px;
+        width: 100%;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
+    .about-text {
+        padding: 0 0 0 0;
+    }
+
+    .Blog .blog-index-tablet {
+        width: calc(100% / 2);
+        float: left;
+    }
+
+    .blog-button a {
+        margin-bottom: auto;
+    }
+
+    .card-loop-tablet {
+        width: 100%;
+    }
+
+    .card-images {
+        margin-top: 6%;
+    }
+
+    .services-title h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .services.card-desc {
+        padding: 0 20px 0 0;
+    }
+
+    .contact-us {
+        padding: 48px 10px;
+    }
+
+    .appointment-title {
+        width: 33.333%;
+        float: left;
+    }
+
+    .main-office {
+        width: 33.333%;
+        float: left;
+    }
+
+    .branc-office {
+        width: 33.333%;
+        float: left;
+    }
+
+    .team-list {
+        margin-top: 40px;
+    }
+
+    .team-wrapper {
+        float: left;
+        width: calc(100% / 3);
+    }
+
+    .blog-loop {
+        margin-top: 0;
+    }
+
+    .blog-list-wrapper {
+        margin-top: 15px;
+        float: left;
+        width: calc(100% / 2);
+    }
+
+    .client-testimoni-text {
+        width: 60%;
+    }
+
+    .client-image .testimoni-quote-wrapper {
+        margin-top: 0;
+    }
+
+    .Contact-detail #id-1 {
+        width: 33.33333%;
+    }
+
+    .info-detail {
+        width: 33.33333%;
+    }
+
+    .about-img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Teams .about-team-wrapper {
+        float: left;
+        width: calc(100% / 2);
+    }
+
+    .flex-hr {
+        margin: auto;
+    }
+
+    .partner-logo-wrapper {
+        margin-top: 40px;
+    }
+
+    .Services {
+        padding: 25px 50px 75px;
+    }
+
+    .service-card-tablet {
+        width: calc(100% / 2);
+    }
+
+    .newsletter-form-input {
+        width: 50%;
+    }
+
+    .newsletter-text {
+        width: 50%;
+    }
+
+    .style-6 {
+        font-size: 12px;
+    }
+
+    .blog-loop-wrapper .row {
+        padding: 0 15px;
+    }
+
+    .blog-card {
+        margin-top: 25px;
+    }
+
+    .blog-card-img {
+        height: 400px;
+    }
+
+    .tag {
+        height: 76%;
+    }
+
+    .user-avatar {
+        margin: auto;
+    }
+
+    .related-post-card {
+        width: 50%;
+    }
+
+    .featured-post {
+        margin-top: 25px;
+        display: block;
+    }
+
+    .side-blog p {
+        font-size: 17px;
+    }
+
+    .side-blog small {
+        font-size: 13px;
+    }
+
+    .recent-comments {
+        display: block;
+    }
+
+    .comment-wrapper {
+        display: block;
+    }
+
+    .follow-us {
+        display: block;
+    }
+
+    .icon-wrapper {
+        margin: 0px 5px 25px;
+    }
+
+    .information-wrapper {
+        padding: 0 15px;
+    }
+
+    .office-info-wrapper {
+        padding: 0 15px;
+    }
+
+    .Contact-detail .column.column-40 {
+        padding: 0 30px;
+    }
+
+    .footer-widget-component {
+        width: 25%;
+        font-size: 14px;
+    }
+
+    .footer-copyright {
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .footer-nav {
+        width: 50%;
+    }
+
+    .footer-menu-wrapper {
+        justify-content: flex-end;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 910px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .blog-card {
+        margin-right: 0;
+    }
+
+    .footer-widget-component .row {
+        display: block;
+    }
+
+    .footer-widget-component .img-zoom-wrapper {
+        float: left;
+    }
+
+    .footer-copyright {
+        width: 50%;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .footer-nav {
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .footer-menu-wrapper {
+        display: block;
+    }
+
+    .footer-menu {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 850px) {
+    .newsletter-title p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .column {
+        float: none;
+        max-width: 100%;
+    }
+
+    .column-1 {
+        width: 100%;
+    }
+
+    .column-2 {
+        width: 100%;
+    }
+
+    .column-3 {
+        width: 100%;
+    }
+
+    .column-2of3 {
+        width: 100%;
+    }
+
+    .column-4 {
+        width: 100%;
+    }
+
+    .column-5 {
+        width: 100%;
+    }
+
+    .main-nav .left-nav {
+        justify-content: space-between;
+    }
+
+    .nav-white .left-nav {
+        padding: 0 15px 0 15px;
+    }
+
+    .bg-white {
+        background-color: #f7f2ef !important;
+    }
+
+    .main-nav .nav-white-logo {
+        padding: 15px 0;
+    }
+
+    .main-nav {
+        padding: 20px 0;
+    }
+
+    .nav-brand {
+        padding: 15px 25px;
+    }
+
+    .main-menu-btn {
+        margin: 14px 25px 10px;
+    }
+
+    .nav-white .main-menu-btn {
+        margin: 14px 0 10px;
+    }
+
+    .main-nav #main-menu {
+        background-color: rgb(0, 0, 0);
+        list-style: none;
+        position: absolute;
+        z-index: -1;
+        padding: 45px 20px 0;
+        top: 50%;
+        width: -webkit-fill-available;
+    }
+
+    .nav-white #main-menu {
+        width: -webkit-fill-available;
+        left: 0;
+        padding: 30px 20px;
+    }
+
+    .menu-item {
+        text-align: center;
+        padding: 15px 0;
+        margin-right: 0 !important;
+        border-bottom: 1px solid #eee;
+    }
+
+    .menu-item-white {
+        margin-right: 0;
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #d5d5d5;
+    }
+
+    .nav-expanded {
+        background-color: rgb(0, 0, 0, 0.3);
+        height: 70px;
+        -webkit-transition: height, 0.25s linear;
+        -moz-transition: height, 0.25s linear;
+        -ms-transition: height, 0.25s linear;
+        -o-transition: height, 0.25s linear;
+        transition: height, 0.25s linear;
+    }
+
+    .nav-expanded.open {
+        background-color: rgb(0, 0, 0);
+        height: 400px;
+        webkit-transition: height, 0.25s linear;
+        -moz-transition: height, 0.25s linear;
+        -ms-transition: height, 0.25s linear;
+        -o-transition: height, 0.25s linear;
+        transition: height, 0.25s linear;
+    }
+
+    .nav-white-expand {
+        background-color: #fff;
+        height: 100%;
+        -webkit-transition: height, 0.15s linear;
+        -moz-transition: height, 0.15s linear;
+        -ms-transition: height, 0.15s linear;
+        -o-transition: height, 0.15s linear;
+        transition: height, 0.15s linear;
+    }
+
+    .nav-white-expand.open-white {
+        background-color: #f7f2ef;
+        height: 100%;
+        webkit-transition: height, 0.15s linear;
+        -moz-transition: height, 0.15s linear;
+        -ms-transition: height, 0.15s linear;
+        transition: height, 0.15s linear;
+    }
+
+    .bg-white {
+        background-color: #f7f2ef !important;
+    }
+
+    .menu-item-white {
+        margin-right: 0;
+        border-bottom: 1px solid #d5d5d5;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .nav-menu-white {
+        background-color: #f7f2ef;
+        padding: 15px;
+    }
+
+    .nav-item-white {
+        text-align: center;
+    }
+
+    .nav-item {
+        text-align: center;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-link {
+        padding: 10px 0;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /* header swiper */
+    .header-text {
+        padding: 0 60px 0 75px;
+    }
+
+    .header-shape {
+        width: 375px;
+    }
+
+    .header-swiper .header-title {
+        top: 20px;
+    }
+
+    .header-swiper .header-title p {
+        font-size: 17px;
+    }
+
+    .header-swiper .header-sub-title {
+        font-size: 32px;
+        top: 35px;
+        line-height: 50px;
+        left: 14%;
+    }
+
+    .header-swiper .header-desc {
+        bottom: 6%;
+        width: 306px;
+    }
+
+    .header-swiper .header-desc p {
+        font-size: 15px;
+    }
+
+    .header-swiper .header-button {
+        top: 100%;
+    }
+
+    .header-swiper .swiper-button-prev {
+        width: 4%;
+    }
+
+    .header-swiper .swiper-button-next {
+        width: 4%;
+    }
+
+    .header-swiper .swiper-container-horizontal > .swiper-pagination-bullets {
+        padding: 0 2px;
+    }
+
+    /* header swiper */
+    /* testimoni slider */
+    .owl-dots {
+        justify-content: space-evenly;
+        width: 10%;
+        margin-top: 30px;
+    }
+
+    .Testimoni {
+        padding: 100px 40px;
+        margin-top: 0;
+    }
+
+    .testimoni-wrapper .client-image {
+        margin-top: 24px;
+    }
+
+    .Testimoni-img-bg .testimoni-wrapper {
+        padding: 0 15px;
+    }
+
+    .client-testimoni-text {
+        width: 65%;
+        padding: 0 15px;
+    }
+
+    /* end testimoni slider */
+    .about-section .about-desc {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .service-card-desc {
+        line-height: 20px;
+        font-weight: 300;
+    }
+
+    .service-cards .service-card-body {
+        padding: 20px 30px 30px;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .gallery {
+        margin-top: 0;
+        padding: 0;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .about-img-tablet {
+        margin-top: 15px;
+    }
+
+    .images {
+        height: 375px;
+        width: 100%;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
+    .team-wrapper {
+        width: calc(100% / 3);
+        float: left;
+    }
+
+    .team-title p {
+        font-size: 16px;
+    }
+
+    .team-title h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .about-text {
+        padding: 0 0 0 0;
+    }
+
+    .card-loop-tablet {
+        width: 100%;
+    }
+
+    .Experience .container {
+        padding: 87px 20px;
+    }
+
+    .style-5 {
+        border: 3px solid #02ad88;
+        font-size: 17px;
+    }
+
+    .Blog {
+        padding: 80px 30px 90px;
+    }
+
+    .blog-button {
+        margin-top: 10%;
+    }
+
+    .Blog .card-body {
+        padding: 35px 45px;
+    }
+
+    .blog-card-body {
+        padding: 35px 45px;
+    }
+
+    .card-images {
+        margin-top: 6%;
+    }
+
+    .services-card {
+        margin-right: 15px;
+    }
+
+    .Appointment {
+        height: 1235px;
+        padding: 45px 0 90px;
+    }
+
+    .Appointment .container {
+        padding: 0 25px;
+    }
+
+    .appointment-title {
+        padding: 0 25px;
+        width: 33.333%;
+        float: left;
+    }
+
+    .main-office {
+        width: 33.333%;
+        float: left;
+    }
+
+    .branc-office {
+        width: 33.333%;
+        float: left;
+    }
+
+    .gMaps #gmap_canvas {
+        width: 100%;
+        height: 641px;
+    }
+
+    .appoitnment-form .left-form,
+    .appoitnment-form .right-form {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .appointment-title h2 {
+        padding: 0;
+    }
+
+    .Team {
+        padding: 80px 30px 90px;
+    }
+
+    .team-list {
+        margin-top: 25px;
+    }
+
+    .team-wrapper {
+        margin-top: 25px;
+    }
+
+    .team-img .res-img {
+        width: 100%;
+    }
+
+    .overlay-body p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .Teams .overlay-body p {
+        font-size: 16px;
+    }
+
+    .blog-loop {
+        padding: 0;
+    }
+
+    .blog-list-wrapper {
+        float: left;
+        width: calc(100% / 2);
+        margin-bottom: 0;
+    }
+
+    .blogPost-img-wrapper {
+        padding-right: 0;
+    }
+
+    .blogPost-body {
+        padding-right: 0;
+    }
+
+    .info-detail {
+        width: 33.33333%;
+    }
+
+    .partner-desc {
+        padding: 0 120px;
+        line-height: 25px;
+    }
+
+    .logo-wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .flex-hr {
+        margin: auto;
+    }
+
+    .Services {
+        padding: 50px 50px 100px;
+    }
+
+    .service-list .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .service-card-tablet {
+        width: calc(100% / 2);
+    }
+
+    .service-cards .service-card-img {
+        height: 210px;
+    }
+
+    .services-card-body {
+        padding: 0 10px 0 0;
+    }
+
+    .newsletter-form-input {
+        padding-right: 15px;
+    }
+
+    .newsletter-title {
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+
+    .newsletter-form {
+        margin-top: 0;
+        padding: 15px 15px 30px 15px;
+    }
+
+    .newsletter-form form {
+        width: 75%;
+    }
+
+    .style-6 {
+        font-size: 15px;
+        margin-left: auto;
+    }
+
+    .about-testimoni-tablet {
+        padding-left: 25px;
+    }
+
+    .testimoni-title hr {
+        width: 15%;
+    }
+
+    .Partner {
+        padding: 50px 25px 38px;
+    }
+
+    .post-wrapper {
+        display: block;
+    }
+
+    .single-service-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .service-post-wrapper {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .relatedService-wrapper {
+        margin-bottom: 35px;
+    }
+
+    .service-qa-wrapper {
+        padding-bottom: 0;
+    }
+
+    .service-sidebar {
+        width: 100%;
+        padding: 0 15px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .serivice-sidebar {
+        width: 100%;
+    }
+
+    .related-service-wrapper {
+        display: block;
+    }
+
+    .contact-us {
+        width: 100%;
+        padding: 50px 40px;
+    }
+
+    .contact-banner-button {
+        margin-top: 45px;
+        margin-bottom: 0;
+    }
+
+    .contact-form form {
+        margin-left: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .recent-services-wrapper {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .blog-loop-wrapper .card-blog-loop {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .blog-card .blog-card-img {
+        height: auto;
+    }
+
+    .Blogs {
+        padding: 40px 0 60px;
+    }
+
+    .BlogPost {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .blogs {
+        display: block;
+    }
+
+    .blog-loop-wrapper {
+        width: 100%;
+    }
+
+    .blog-card {
+        margin-top: 25px;
+    }
+
+    .blog-card-img {
+        height: 400px;
+    }
+
+    .Blogs .pagination-row {
+        padding: 15px 0;
+    }
+
+    .blogPost-wrapper .column.column-75 {
+        width: 100%;
+    }
+
+    .blog-index-tablet {
+        padding-left: 15px;
+    }
+
+    .blog-title h3 {
+        line-height: 45px;
+    }
+
+    .comment-wrapper {
+        padding: 0;
+        width: 100%;
+    }
+
+    .category-wrapper {
+        padding: 0;
+    }
+
+    .related-post-card {
+        width: 50%;
+    }
+
+    .tag {
+        height: 76%;
+    }
+
+    .user-avatar {
+        margin: auto;
+    }
+
+    .sidebar-wrapper {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .Blogs .sidebar-wrapper {
+        margin-top: 90px;
+        padding: 0 15px;
+    }
+
+    .blogPost-side-menu {
+        position: relative;
+    }
+
+    .side-blog {
+        margin-top: 10px;
+    }
+
+    .recent-post {
+        padding: 0;
+    }
+
+    .recent-comments {
+        padding: 0;
+    }
+
+    .footer-logo {
+        width: 200px;
+    }
+
+    .featured-post {
+        display: block;
+    }
+
+    .featured-post-img {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .footer-news-wrapper {
+        padding: 0;
+    }
+
+    .BlogPost .featured-post-img {
+        width: 100%;
+    }
+
+    .side-post-img-wrapper {
+        width: 15%;
+    }
+
+    .recent-comments {
+        display: block;
+    }
+
+    .icon-wrapper {
+        margin: 0px 5px 25px;
+        font-size: 15px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .Testimoni-img-bg .testimoni-title {
+        margin-bottom: 40px;
+    }
+
+    .author-desc-body {
+        padding: 0 15px;
+    }
+
+    .partner-wrapper {
+        padding: 0;
+    }
+
+    .Blogs .column.column-75 {
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    .Blogs .row.blog-loop-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .About {
+        padding: 65px 30px 79px;
+    }
+
+    .Services-list {
+        padding: 100px 25px 80px;
+    }
+
+    .sidebar-wrapper {
+        padding-right: 15px;
+    }
+
+    .contact-form-wrap {
+        padding-right: 0;
+    }
+
+    .footer-widget-component {
+        margin-bottom: 30px;
+    }
+
+    .footer-widget-component .footer-desc {
+        margin-top: 15px;
+    }
+
+    .footer-widget-component .left-hr {
+        width: 45px;
+    }
+
+    .footer-widget-component .row {
+        display: flex;
+    }
+
+    .footer-widget-component .img-zoom-wrapper {
+        float: none;
+    }
+
+    .footer-copyright {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .footer-nav {
+        margin: 15px 0;
+    }
+
+    .footer-menu-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-header .main-nav {
+        padding: 20px 20px 0;
+    }
+
+    .nav-brand {
+        padding: 15px 15px;
+    }
+
+    .main-menu-btn {
+        margin: 14px 10px 10px;
+    }
+
+    .nav-expanded.open {
+        height: 380px;
+    }
+
+    .main-nav #main-menu {
+        padding: 30px 20px 0;
+    }
+
+    .nav-white #main-menu {
+        padding: 30px 20px;
+    }
+
+    .main-header .nav-white {
+        padding: 20px 0 20px 0;
+    }
+
+    .main-nav .left-nav {
+        justify-content: space-between;
+    }
+
+    .main-nav .btn-nav-white {
+        margin: 14px 0 14px 169px;
+    }
+
+    .bg-white {
+        background-color: #f7f2ef !important;
+    }
+
+    .main-nav .menu-item {
+        text-align: center;
+        padding: 15px 0;
+        margin-right: 0;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-menu-white {
+        background-color: #f7f2ef;
+        padding: 15px;
+    }
+
+    .nav-item-white {
+        text-align: center;
+    }
+
+    .nav-item {
+        text-align: center;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-menu-list {
+        visibility: hidden;
+    }
+
+    .header-text.appointment {
+        padding: 120px 0;
+    }
+
+    .header-shape {
+        width: 350px;
+    }
+
+    .header-swiper .header-sub-title {
+        font-size: 26px;
+        top: 30px;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .Contact-detail {
+        padding: 50px 15px 63px;
+    }
+
+    .Contact-detail .column.column-40 {
+        padding: 0 15px;
+    }
+
+    .contact-detail-title h2 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .about-text {
+        padding: 0;
+    }
+
+    .header-img {
+        height: 400px;
+    }
+
+    .services-title h3 {
+        font-size: 24px;
+    }
+
+    .service-img {
+        height: 400px;
+    }
+
+    .contact-img {
+        height: 400px;
+    }
+
+    .header-desc h1 {
+        font-size: 30px;
+    }
+
+    .ceo-name {
+        width: 100%;
+    }
+
+    .signature-img {
+        width: 40%;
+    }
+
+    .gallery {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .About .images {
+        height: auto;
+    }
+
+    .About-us {
+        padding: 50px 15px 30px;
+    }
+
+    .gallery-image {
+        width: 97%;
+    }
+
+    .on-hover-component {
+        width: 97%;
+    }
+
+    .Blog .blog-index-tablet {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card-loop-tablet {
+        width: 100%;
+    }
+
+    .Services {
+        padding: 80px 30px 135px;
+    }
+
+    .Services-list {
+        padding: 80px 20px 80px;
+    }
+
+    .services-card-body {
+        text-align: center;
+        padding: 0;
+    }
+
+    .service-card-tablet {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .Services-list .sc-last-2 {
+        margin-top: 0;
+    }
+
+    .service-cards .service-card-img {
+        height: auto;
+    }
+
+    .Services-list .service-card-desc {
+        padding: 0;
+    }
+
+    .service-card-loop {
+        margin-top: 5px;
+    }
+
+    .service-card-wrapper {
+        display: block;
+    }
+
+    .service-cards {
+        margin-top: 1.2rem;
+    }
+
+    .Services .services-card-img {
+        width: 100px;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .Services .card-title {
+        font-size: 20px;
+    }
+
+    .card-images {
+        margin-top: 5%;
+        height: 275px;
+    }
+
+    .service-card-list {
+        margin-top: 1.2rem;
+    }
+
+    .services-card {
+        display: block;
+        margin-top: 1.2rem;
+        width: 100%;
+    }
+
+    .service-card-desc {
+        padding: 0 15px 15px 15px;
+        margin-bottom: 0;
+    }
+
+    .About {
+        padding: 80px 15px;
+    }
+
+    .about-button {
+        margin-bottom: 10px;
+    }
+
+    .appointment-title {
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .Appointment .main-office,
+    .Appointment .branc-office {
+        width: 100%;
+    }
+
+    .appointment-title h2 {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    .left-hr.mobile-hide {
+        display: none;
+    }
+
+    .Appointment .left-hr {
+        bottom: unset;
+    }
+
+    .left-hr.mobile {
+        display: block;
+        width: 40px;
+    }
+
+    .office-name {
+        font-size: 18px;
+    }
+
+    .info-detail .office-site {
+        font-size: 18px;
+    }
+
+    .office-detail p {
+        font-size: 14px;
+    }
+
+    .office-detail hr {
+        margin-top: 25px;
+        width: 40px;
+    }
+
+    .left-form,
+    .right-form {
+        padding: 0;
+    }
+
+    .Appointment {
+        height: 100%;
+        padding: 75px 0 45px;
+    }
+
+    .Appointment::before {
+        border-left: 23vw solid transparent;
+    }
+
+    .Appointment-bg-img .container {
+        padding: 18% 0;
+    }
+
+    .appointment-text h2 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .appointment-text h3 {
+        font-size: 30px;
+    }
+
+    .appoitnment-form {
+        margin-top: 35px;
+    }
+
+    .Team {
+        margin-top: 35px;
+        padding: 30px 30px 60px 30px;
+    }
+
+    .team-img .res-img {
+        width: 100%;
+    }
+
+    .Teams .about-team-wrapper {
+        width: 100%;
+    }
+
+    .blog-button {
+        margin-top: 10px;
+    }
+
+    .partner-text {
+        padding: 0 20px;
+    }
+
+    .flex-hr {
+        margin: auto;
+    }
+
+    .partner-logo-wrapper {
+        display: flex;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .partner-list {
+        display: flex;
+        margin-top: 0;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
+    .center-hr {
+        width: 12%;
+    }
+
+    .service-experience {
+        text-align: left;
+    }
+
+    .service-card-title h3 {
+        font-size: 24px;
+    }
+
+    .Blog {
+        padding: 80px 20px;
+    }
+
+    .service-experience .experience-button {
+        padding: 15px 0;
+    }
+
+    .experience-body button {
+        margin-top: 0;
+    }
+
+    .experience-button {
+        padding: 15px 20px;
+    }
+
+    .team-img-wrapper {
+        margin-bottom: 25px;
+    }
+
+    .team-wrapper {
+        width: 100%;
+    }
+
+    .overlay-body p {
+        font-size: 16px;
+    }
+
+    .Appointment .container {
+        padding: 0;
+    }
+
+    .Appointment .desc-wrap {
+        padding: 0 20px;
+    }
+
+    .blog-button a {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog-title {
+        text-align: -webkit-center;
+    }
+
+    .blog-title .left-hr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog-list-wrapper {
+        float: left;
+        width: 100%;
+    }
+
+    .blog-card {
+        margin-top: 1.2rem;
+        width: -webkit-fill-available;
+    }
+
+    .card-category {
+        top: 95%;
+    }
+
+    .card-title {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .blog-loop .card-title {
+        font-size: 27px;
+    }
+
+    .testimoni-title h3 {
+        margin: 0;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .Testimoni {
+        padding: 80px 40px;
+    }
+
+    .Testimoni-img-bg {
+        padding: 80px 15px 80px;
+    }
+
+    .about-testimoni-tablet {
+        padding-left: 0;
+    }
+
+    .testimoni-wrapper .client-image {
+        margin: auto;
+    }
+
+    .partner-desc {
+        padding: 0 70px;
+    }
+
+    .partner-list {
+        display: block;
+        margin-top: 25px;
+    }
+
+    .related-post-card {
+        width: 50%;
+    }
+
+    .office-info-wrapper {
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+
+    .office-site-card {
+        display: block;
+        margin-top: 1.2rem;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .office-site-card:last-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .info-detail {
+        width: 100%;
+    }
+
+    .Contact-detail #id-1 {
+        width: 100%;
+    }
+
+    .information-wrapper .info-detail {
+        padding: 0;
+    }
+
+    .Contact-detail .row {
+        position: relative;
+    }
+
+    .contact-desc {
+        padding: 0;
+    }
+
+    .contact-form .style-9 {
+        margin-top: 5px;
+    }
+
+    .icon-site {
+        text-align: center;
+    }
+
+    .site-text {
+        text-align: center;
+    }
+
+    .blogs {
+        display: block;
+    }
+
+    .blog-post-img {
+        width: 50%;
+        height: auto;
+        margin: 15px 0;
+        padding: 0 10px;
+    }
+
+    .tag {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .tag-wrapper {
+        display: block;
+    }
+
+    .tag-wrapper li {
+        display: inline-block;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    .icon-site {
+        margin-top: 18px;
+    }
+
+    .user-avatar {
+        margin: auto;
+    }
+
+    .Newsletter {
+        padding: 5% 5%;
+    }
+
+    .newsletter-title {
+        text-align: center;
+        padding: 0;
+    }
+
+    .newsletter-form {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .newsletter-form form {
+        width: 72%;
+    }
+
+    .newsletter-input {
+        padding: 13px 15px;
+    }
+
+    .input-field {
+        display: block;
+        margin-top: 0;
+    }
+
+    .main-office {
+        width: 100%;
+        margin: 25px 0;
+        padding: 0;
+    }
+
+    .branc-office {
+        width: 100%;
+        padding: 0;
+    }
+
+    .form-input,
+    .form-textarea {
+        margin-bottom: 1.2rem;
+        box-sizing: border-box;
+    }
+
+    .contact-form {
+        padding: 50px 30px;
+    }
+
+    .contact-form .form-input,
+    .contact-form .form-textarea,
+    .contact-form .input-field {
+        width: 100%;
+        box-sizing: border-box;
+        margin-right: 0;
+    }
+
+    .style-4 {
+        width: 100%;
+    }
+
+    .footer-menu {
+        margin-right: 5px;
+        font-size: 18px;
+    }
+
+    .testimoni-title,
+    .Testimoni-img-bg .testimoni-title {
+        margin-bottom: 20px;
+    }
+
+    .team-about {
+        padding: 100px 25px 75px;
+    }
+
+    .info-detail.detail-tablet-2 {
+        width: 100%;
+    }
+
+    .appoitnment-form {
+        padding: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .main-header .main-nav {
+        display: block;
+    }
+
+    .main-nav .btn-nav-white {
+        margin: 14px 0 14px 169px;
+    }
+
+    .bg-white {
+        background-color: #f7f2ef !important;
+    }
+
+    .nav-menu-white {
+        background-color: #f7f2ef;
+        padding: 15px;
+    }
+
+    .nav-item-white {
+        text-align: center;
+    }
+
+    .nav-item {
+        text-align: center;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-menu-list {
+        visibility: hidden;
+    }
+
+    /* header swiper */
+    .header-swiper .header-title p {
+        font-size: 15px;
+        letter-spacing: 9px;
+    }
+
+    .header-swiper .header-sub-title {
+        top: 31px;
+        left: 14%;
+    }
+
+    .header-swiper .header-desc p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .header-swiper .swiper-button-next {
+        visibility: hidden;
+    }
+
+    .header-swiper .swiper-button-prev {
+        visibility: hidden;
+    }
+
+    /* end header swiper */
+    /* testimoni slider */
+    .owl-dots {
+        width: 20%;
+    }
+
+    /* end testimoni slider */
+    .header-desc h1 {
+        font-size: 28px;
+    }
+
+    .about-section-title h2 {
+        line-height: 60px;
+    }
+
+    .about-section-title small {
+        line-height: 65px;
+    }
+
+    .blog-list-wrapper {
+        margin-left: 0;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .about-text {
+        padding: 0;
+    }
+
+    .About .images {
+        height: auto;
+    }
+
+    .card-loop-tablet {
+        width: 100%;
+    }
+
+    .Services .services-card-img {
+        width: 120px;
+        height: auto;
+    }
+
+    .services-card-body {
+        padding: 0;
+        text-align: center;
+    }
+
+    .card-images {
+        margin-top: 5%;
+        height: 275px;
+    }
+
+    .service-card-list {
+        margin-top: 1.2rem;
+    }
+
+    .appointment-title {
+        width: 100%;
+    }
+
+    .main-office {
+        width: 100%;
+    }
+
+    .branc-office {
+        width: 100%;
+    }
+
+    .Appointment {
+        padding: 44px 0 45px;
+    }
+
+    .appointment-text h2 {
+        font-size: 35px;
+        margin: 0;
+        line-height: 70px;
+    }
+
+    .appointment-text h3 {
+        font-size: 25px;
+    }
+
+    .main-office {
+        margin: 15px 0;
+    }
+
+    .branc-office {
+    }
+
+    .team-img .res-img {
+        width: 100%;
+    }
+
+    .partner-desc {
+        padding: 0 35px;
+    }
+
+    .flex-hr {
+        margin: auto;
+    }
+
+    .partner-list {
+        display: block;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
+    .center-hr {
+        width: 12%;
+    }
+
+    .about-team-wrapper {
+        width: 100%;
+    }
+
+    .about-testimoni-tablet {
+        margin-top: 15px;
+    }
+
+    .client-testimoni-text {
+        width: 100%;
+    }
+
+    .Experience .container {
+        padding: 13% 5%;
+    }
+
+    .blog-button a {
+        margin-top: 0;
+    }
+
+    .blog-title h3 {
+        font-size: 30px;
+    }
+
+    .blog-list-wrapper {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .blog-loop {
+        margin: auto;
+    }
+
+    .blog-title {
+        text-align: -webkit-center;
+    }
+
+    .blog-card {
+        margin-top: 1.2rem;
+        margin-right: 0;
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .icon-site {
+        text-align: center;
+    }
+
+    .site-text {
+        text-align: center;
+    }
+
+    .blogs {
+        display: block;
+    }
+
+    .related-post-card .blog-card-title {
+        font-size: 25px;
+    }
+
+    .side-post-img-wrapper {
+        width: 20%;
+    }
+
+    .icon-site {
+        margin-top: 18px;
+    }
+
+    .contact-form .input-field {
+        width: 100%;
+    }
+
+    .form-input {
+        margin-bottom: 1.2rem;
+    }
+
+    .form-textarea {
+        margin-bottom: 1.2rem;
+    }
+
+    .newsletter-form form {
+        width: 69%;
+    }
+
+    .footer-menu {
+        margin-right: 5px;
+        font-size: 17px;
+    }
+
+    .footer-copyright {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 550px) {
+    .main-nav .btn-nav-white {
+        margin: 14px 0 14px 169px;
+    }
+
+    .bg-white {
+        background-color: #f7f2ef !important;
+    }
+
+    .nav-menu-white {
+        background-color: #f7f2ef;
+        padding: 15px;
+    }
+
+    .header-shape {
+        width: 300px;
+    }
+
+    .header-swiper .header-title {
+        top: 15px;
+    }
+
+    .header-swiper .header-sub-title {
+        font-size: 23px;
+        top: 30px;
+        line-height: 40px;
+        left: 14%;
+    }
+
+    .header-swiper .header-desc {
+        width: 250px;
+    }
+
+    .header-swiper .header-desc p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .header-swiper .swiper-button-next {
+        visibility: hidden;
+    }
+
+    .header-swiper .swiper-button-prev {
+        visibility: hidden;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .about-text {
+        padding: 0;
+    }
+
+    .services-title p {
+        font-size: 15px;
+    }
+
+    .services-card-img {
+        height: auto !important;
+    }
+
+    .card-images {
+        margin-top: 5%;
+        height: 275px;
+    }
+
+    .service-card-list {
+        margin-top: 1.2rem;
+    }
+
+    .experience-body h3 {
+        line-height: 40px;
+    }
+
+    .about-section-title h2 {
+        font-size: 29px;
+        line-height: 45px;
+    }
+
+    .appointment-text {
+        line-height: 40px;
+    }
+
+    .appointment-text h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .main-office {
+        margin: 15px 0;
+    }
+
+    .partner-desc {
+        padding: 0 15px;
+    }
+
+    .flex-hr {
+        margin: auto;
+    }
+
+    .partner-list {
+        margin-top: 0;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
+    .center-hr {
+        width: 12%;
+    }
+
+    .Experience .container {
+        padding: 23% 5%;
+    }
+
+    .blog-loop-wrapper .card-blog-loop {
+        width: 100%;
+    }
+
+    .blog-list-wrapper {
+        width: 100%;
+    }
+
+    .blog-card {
+        margin-top: 1.2rem;
+    }
+
+    .slider-wrap {
+        padding: 0;
+    }
+
+    .testimomi-slider-wrapper {
+        margin-top: 20px;
+    }
+
+    .client-testimoni-text {
+        width: 100%;
+    }
+
+    .testimoni-text p {
+        margin-top: 25px;
+    }
+
+    .owl-dots {
+        margin-top: 25px;
+        left: 0;
+    }
+
+    .related-post-card {
+        width: 100%;
+    }
+
+    .icon-site {
+        text-align: center;
+    }
+
+    .site-text {
+        text-align: center;
+    }
+
+    .blogs {
+        display: block;
+    }
+
+    .side-post-img-wrapper {
+        width: 30%;
+    }
+
+    .icon-site {
+        margin-top: 18px;
+    }
+
+    .user-avatar {
+        margin: auto;
+        width: 100%;
+    }
+
+    .newsletter-form form {
+        width: 65%;
+    }
+
+    .blogPost-body .img-right,
+    .blogPost-body .img-left {
+        width: 100%;
+        margin: 15px 0px;
+        padding: 0;
+    }
+
+    .form-input {
+        margin-bottom: 1.2rem;
+    }
+
+    .form-textarea {
+        margin-bottom: 1.2rem;
+    }
+
+    .footer-menu {
+        margin-right: 5px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-nav .btn-nav-white {
+        margin: 14px 0 14px 169px;
+    }
+
+    .bg-white {
+        background-color: #f7f2ef !important;
+    }
+
+    .nav-menu-white {
+        background-color: #f7f2ef;
+        padding: 15px;
+    }
+
+    .nav-item-white {
+        text-align: center;
+    }
+
+    .nav-item {
+        text-align: center;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-menu-list {
+        visibility: hidden;
+    }
+
+    /* header swiper */
+    .header-text-wrap {
+        top: 65%;
+        transform: translateY(-65%);
+    }
+
+    .header-shape {
+        width: 265px;
+    }
+
+    .header-text {
+        padding: 0 0 0 55px;
+    }
+
+    .header-swiper .header-title {
+        left: 105px;
+    }
+
+    .header-swiper .header-sub-title {
+        font-size: 18px;
+        line-height: 30px;
+        left: 14%;
+    }
+
+    .header-swiper .header-desc {
+        left: 100px;
+        width: 230px;
+    }
+
+    .header-swiper .header-button {
+        left: 100px;
+        top: 97%;
+    }
+
+    .header-swiper .swiper-button-next {
+        visibility: hidden;
+    }
+
+    .header-swiper .swiper-button-prev {
+        visibility: hidden;
+    }
+
+    .header-swiper .swiper-container-horizontal > .swiper-pagination-bullets {
+        bottom: 10px;
+    }
+
+    /* end header-swiper */
+    /* testimoni slider */
+    .testimoni-quote-wrapper {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .owl-dots {
+        width: 20%;
+    }
+
+    /* end testimoni slider */
+    .contact-container {
+        width: 100%;
+    }
+
+    .about-text {
+        padding: 0;
+    }
+
+    .gallery {
+        justify-content: space-evenly;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .experience-body h3 {
+        font-size: 29px;
+    }
+
+    .service-title h1 {
+        line-height: 43px;
+        margin: 0;
+    }
+
+    .Services .services-card-img {
+        width: 80px;
+    }
+
+    .service-quetion h4 {
+        line-height: 25px;
+    }
+
+    .services-title h3 {
+        line-height: 35px;
+    }
+
+    .card-images {
+        margin-top: 5%;
+        height: 275px;
+    }
+
+    .service-card-list {
+        margin-top: 1.2rem;
+    }
+
+    .appointment-text h2 {
+        font-size: 30px;
+        margin: 0;
+        line-height: 45px;
+    }
+
+    .main-office {
+        margin: 25px 0;
+    }
+
+    .branc-office {
+        margin-bottom: 25px;
+    }
+
+    .appoitnment-form {
+        margin-top: 15px;
+    }
+
+    .team-title p {
+        font-size: 15px;
+    }
+
+    .partner-text {
+        padding: 0;
+    }
+
+    .partner-desc {
+        padding: 0;
+    }
+
+    .flex-hr {
+        margin: auto;
+    }
+
+    .blogPost-category {
+        top: 94%;
+    }
+
+    .Testimoni-img-bg .testimoni-quote {
+        width: 100%;
+    }
+
+    .icon-site {
+        text-align: center;
+    }
+
+    .site-text {
+        text-align: center;
+    }
+
+    .blogs {
+        display: block;
+    }
+
+    .card-category {
+        top: 92%;
+    }
+
+    .blog-post-img {
+        width: 100%;
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    .icon-site {
+        margin-top: 18px;
+    }
+
+    .author-desc-wrapper {
+        display: block;
+    }
+
+    .user-avatar {
+        margin: auto;
+        width: 35%;
+    }
+
+    .auhtor-desc-body {
+        padding: 0;
+    }
+
+    .newsletter-form {
+        display: block;
+        text-align: center;
+    }
+
+    .newsletter-form form {
+        width: 100%;
+    }
+
+    .newsletter-form button {
+        margin-top: 20px;
+    }
+
+    .team-about .team-list {
+        padding: 0;
+    }
+
+    .contact-form {
+        left: 0;
+    }
+
+    .form-input {
+        margin-bottom: 1.2rem;
+    }
+
+    .form-textarea {
+        margin-bottom: 1.2rem;
+    }
+
+    .footer-menu {
+        margin-right: 5px;
+        font-size: 14px;
+    }
+
+    .footer-copyright {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+    .sub-title {
+        line-height: 21px;
+        margin-bottom: 15px;
+    }
+
+    .client-testimoni-text {
+        width: auto;
+    }
+
+    .Appointment {
+        height: auto;
+    }
+
+    .gMaps {
+        top: 48px;
+    }
+
+    .footer-menu-wrapper {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-swiper .header-indicators {
+        padding: 0 6px;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .about-section-title small {
+        line-height: 30px;
+    }
+
+    .Blogs {
+        padding: 20px 0 60px;
+    }
+
+    .images {
+        height: 250px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .testimoni-title p {
+        font-size: 14px;
+    }
+
+    .owl-dots {
+        justify-content: space-between;
+    }
+
+    .experience-body button {
+        padding: 13px 20px;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
+    .icon {
+        font-size: 11px;
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+    }
+
+    .logo-wrapper {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .service-cards .service-card-body {
+        padding: 10px 30px 30px;
+    }
+
+    .contact-detail-title h1 {
+        font-size: 34px;
+    }
+
+    .style-5 {
+        margin-top: 0;
+    }
+
+    .Testimoni-img-bg .testimoni-title h3 {
+        line-height: 30px;
+    }
+
+    .footer-menu {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header-shape {
+        width: 235px;
+    }
+
+    .header-swiper .header-title {
+        top: 9px;
+    }
+
+    .header-swiper .header-title p {
+        font-size: 11px;
+    }
+
+    .header-swiper .header-sub-title {
+        font-size: 16px;
+        left: 14%;
+    }
+
+    .header-swiper .header-desc {
+        width: 200px;
+    }
+
+    .header-swiper .header-desc p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .header-swiper .learn-more {
+        font-size: 14px;
+    }
+
+    .client-testimoni-text {
+        width: 100%;
+    }
+
+    .logo-wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Appointment::before {
+        border-bottom: 46px solid #1b1b1b;
+    }
+}
+
+@media (max-width: 350px) {
+    .nav-brand {
+        padding: 15px 0;
+    }
+
+    .main-menu-btn {
+        margin: 14px 0 10px;
+    }
+
+    .main-nav .btn-nav-white {
+        margin: 14px 0 14px 70px;
+    }
+
+    .header-text {
+        padding: 0 0 0 45px;
+    }
+
+    .header-shape {
+        width: 210px;
+    }
+
+    .header-swiper .header-title {
+        left: 90px;
+        top: 9px;
+    }
+
+    .header-swiper .header-sub-title {
+        font-size: 15px;
+        top: 26px;
+    }
+
+    .header-swiper .header-desc,
+    .header-swiper .header-button {
+        left: 87px;
+    }
+
+    .header-swiper .header-desc p {
+        font-size: 9px;
+    }
+
+    .header-swiper .learn-more {
+        font-size: 13px;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .about-section-title h2 {
+        font-size: 30px;
+    }
+
+    .images {
+        height: 210px;
+    }
+
+    .blogPost-category {
+        top: 90%;
+    }
+
+    .blog-loop-wrapper .row {
+        padding: 0;
+    }
+
+    .blog-loop-wrapper .card-blog-loop {
+        padding: 0 15px;
+    }
+
+    .blog-card-img {
+        height: 182px;
+    }
+
+    .Testimoni .testimoni-quote-wrapper {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .Appointment::before {
+        border-bottom: 45px solid #1b1b1b;
+    }
+
+    .style-6 {
+        font-size: small;
+    }
+
+    .style-7 {
+        font-size: small;
+    }
+
+    .tag-wrapper {
+        justify-content: flex-start;
+    }
+
+    .tag {
+        margin-left: 3px;
+    }
+}
+
+@media (max-width: 320px) {
+    .appointment-text h2 {
+        font-size: 26px;
+    }
+
+    .blog-title h3 {
+        font-size: 25px;
+    }
+
+    .service-card-tablet {
+        padding: 0;
+    }
+
+    .header-swiper .header-sub-title {
+        left: 14%;
+    }
+}

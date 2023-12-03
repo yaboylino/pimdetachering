@@ -1,0 +1,23 @@
+.nav-logo {
+    width: 75px;
+}
+
+.right-nav,
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .left-nav {
+        width: 100%
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+    .nav-logo {
+        width: 60px;
+    }
+}

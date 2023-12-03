@@ -1,0 +1,354 @@
+<!---MAIN WRAPPER START
+                   ==================================-->
+<div id="main-wrapper" class="clearfix">
+
+
+    <!---CONTENT START
+            ==================================-->
+    <div id="content" class="content-wrapper clearfix">
+        <!--SWIPER START-->
+        <section class="header-swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-bg" style="
+              background: url('assets/images/hero-image.jpg');
+              background-size: cover;
+              background-position: center center;
+            ">
+                            <div class="hero__container">
+                                <h1 class="hero__title">{{'home.hero.title' | translate}}</h1>
+                                <p class="hero__description">{{'home.hero.description' | translate}}</p>
+                                <div class="hero__button" data-aos="fade-up" data-aos-duration="3100">
+                                    <a routerLink="/about" class="button style-2">{{'home.hero.button' | translate}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-bg" style="
+                    background: url('assets/images/hero-image.jpg');
+                    background-size: cover;
+                    background-position: center center;
+                  ">
+                            <div class="header-text-wrap">
+                                <div class="container">
+                                    <div class="row header-text">
+                                        <div class="header-title">
+                                            <p class="text-white">services</p>
+                                        </div>
+                                        <div class="header-sub-title">
+                                            <h1 class="text-white">
+                                                Get guaranteed success <br> with our advisors!
+                                            </h1>
+                                        </div>
+                                        <div class="header-desc">
+                                            <p class="text-white">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut.
+                                            </p>
+                                        </div>
+                                        <div class="header-button">
+                                            <p class="learn-more">
+                                                <a class="text-white" href="about.html">LEARN MORE</a>
+                                                <i class="fas fa-long-arrow-alt-right text-white"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!--END SWIPER-->
+
+        <!---ABOUT START-->
+        <section class="About">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="column column-2 about-section">
+                        <div class="about-section-title">
+                            <h2 class="text-blue">{{'home.about.title' | translate}}</h2>
+                            <hr class="left-hr"/>
+                            <p class="sub-title">
+                                {{'home.about.motto' | translate}}
+                            </p>
+                            <p class="text-gray about-desc">
+                                {{'home.about.description' | translate}}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column column-2 gallery-section">
+                        <div class="gallery" id="lightGallery">
+                            <div data-src="assets/images/pim2.webp"
+                                 data-responsive-src="assets/images/pim2.webp"
+                                 data-aos="fade-up" data-aos-duration="3100" class="img-gallery-wrap">
+                                <a href="#">
+                                    <div class="img-gallery">
+                                        <img class="about-image-1" src="assets/images/pim2.webp"
+                                             alt="image-1"/>
+                                        <div class="on-hover-component">
+                                            <i class="fas fa-search hover-icon"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div data-src="assets/images/hero-image.jpg"
+                                 data-responsive-src="assets/images/pim1.webp"
+                                 data-aos="fade-up" data-aos-duration="3100" class="img-gallery-wrap">
+                                <a href="#">
+                                    <div class="img-gallery">
+                                        <img class="about-image-1" src="assets/images/pim1.webp"
+                                             alt="image-2"/>
+                                        <div class="on-hover-component">
+                                            <i class="fas fa-search hover-icon"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix about-desc">
+                    <div class="column column-2 about-img-tablet" data-aos="fade-right" data-aos-duration="3100">
+                        <img class="about-image-2" src="assets/images/pim1.webp" alt="img"/>
+                    </div>
+                    <div class="column column-2 about-text-wrapper">
+                        <div class="row about-text">
+                            <p class="text-gray">
+                                {{'home.about.description_2' | translate}}
+                            </p>
+                            <div class="about-button" data-aos="fade-up" data-aos-duration="3100">
+                                <a href="about.html" class="button style-2"> {{'home.about.cta' | translate}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---END ABOUT-->
+
+        <!---SERVICES START-->
+        <section class="Services">
+            <div class="container">
+                <div class="row">
+                    <div class="services-text">
+                        <div class="services-title">
+                            <h3 class="text-blue text-bold">
+                                {{'home.client.title' | translate}}
+                            </h3>
+                            <p class="text-gray">
+                                {{'home.client.description' | translate}}
+                            </p>
+                            <div class="service-button">
+                                <a routerLink="/opdrachtgevers" class="button style-3">{{'home.client.cta' | translate}}</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-card-loop">
+                        <div class="row">
+                            <div class="service-card-wrapper card-loop-tablet" data-aos="fade-up"
+                                 data-aos-duration="3100">
+                                <div class="services-card">
+                                    <div class="service-assets-images">
+                                        <img class="card-assets/images services-card-img"
+                                             src="assets/images/service1s.png" alt="service image"
+                                             width="70"/>
+                                    </div>
+                                    <div class="service-desc">
+                                        <div class="services-card-body">
+                                            <p class="card-title">{{'home.client.services.one.service_title' | translate}}</p>
+                                            <p class="service-card-desc">
+                                                {{'home.client.services.one.service_description' | translate}}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services-card">
+                                    <div class="service-assets-images">
+                                        <img class="card-assets/images services-card-img"
+                                             src="assets/images/service2-1.png" alt="service image"
+                                             width="70"/>
+                                    </div>
+                                    <div class="service-desc">
+                                        <div class="services-card-body">
+                                            <p class="card-title">{{'home.client.services.two.service_title' | translate}}</p>
+                                            <p class="service-card-desc">
+                                                {{'home.client.services.two.service_description' | translate}}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="service-card-wrapper card-loop-tablet" data-aos="fade-up"
+                                 data-aos-duration="3100">
+                                <div class="services-card">
+                                    <div class="service-assets-images">
+                                        <img class="card-assets/images services-card-img"
+                                             src="assets/images/service3-1.png" alt="service image"
+                                             width="70"/>
+                                    </div>
+                                    <div class="service-desc">
+                                        <div class="services-card-body">
+                                            <p class="card-title">{{'home.client.services.three.service_title' | translate}}</p>
+                                            <p class="service-card-desc">
+                                                {{'home.client.services.three.service_description' | translate}}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services-card">
+                                    <div class="service-assets-images">
+                                        <img class="card-assets/images services-card-img"
+                                             src="assets/images/service4-1.png" alt="service image"
+                                             width="70"/>
+                                    </div>
+                                    <div class="service-desc">
+                                        <div class="services-card-body">
+                                            <p class="card-title">{{'home.client.services.four.service_title' | translate}}</p>
+                                            <p class="service-card-desc">
+                                                {{'home.client.services.four.service_description' | translate}}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---END SERVICES-->
+
+        <!---EXPERIENCE START
+          ==================================-->
+        <section class="Experience">
+            <div class="container">
+                <div class="row">
+                    <div class="column column-1 experience-body">
+                        <h3 class="text-white">
+                            {{'home.experience.title' | translate}}
+                        </h3>
+                        <p>
+                            {{'home.experience.description' | translate}}
+                        </p>
+                        <div class="experience-button">
+                            <a routerLink="/contact" class="button style-5" role="button">{{'home.experience.cta' | translate}}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---END EXPRERIENCE-->
+
+                <!---TEAM START
+          ==================================-->
+        <section class="Team">
+            <div class="container">
+                <div class="row">
+                    <div class="column column-4 team-section-desc">
+                        <div class="team-title">
+                            <p class="text-gray letter-space5">{{'home.team.subtitle' | translate}}</p>
+                            <h3 class="text-blue">{{'home.team.title' | translate}}</h3>
+                            <hr class="left-hr mb-3"/>
+                        </div>
+                        <div class="team-body">
+                            <p class="text-gray">
+                                {{'home.team.description' | translate}}
+                            </p>
+                            <a href="/contact">{{'home.team.cta' | translate}}</a>
+                        </div>
+                    </div>
+                    <div class="team-list">
+                        <div class="column column-2 team-wrapper">
+                            <div class="team-img-wrapper">
+                                <div class="team-img">
+                                    <img class="res-img" src="assets/images/romano-oehlers.png"
+                                         alt="team-assets/images"/>
+                                    <div class="overlay">
+                                        <div class="overlay-body">
+                                            <p class="text-white">
+                                                At vero eos et accusamus et iusto odio dignissimos
+                                                ducimus qui blanditiis praesentium voluptatum
+                                            </p>
+                                            <div class="overlay-icon row">
+                                                <a href="index.html" target="_blank">
+                                                    <div class="icon">
+                                                        <i class="fab fa-twitter"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="index.html" target="_blank">
+                                                    <div class="icon">
+                                                        <i class="fab fa-facebook-f"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="index.html" target="_blank">
+                                                    <div class="icon">
+                                                        <i class="fab fa-linkedin-in"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-desc">
+                                    <p class="team-name">Romano Oehlers</p>
+<!--                                    <p class="team-job">Recruiter</p>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column column-2 team-wrapper">
+                            <div class="team-img-wrapper">
+                                <div class="team-img">
+                                    <img class="res-img" src="assets/images/tyrone.png"
+                                         alt="team-assets/images"/>
+                                    <div class="overlay">
+                                        <div class="overlay-body">
+                                            <p class="text-white">
+                                                At vero eos et accusamus et iusto odio dignissimos
+                                                ducimus qui blanditiis praesentium voluptatum
+                                            </p>
+                                            <div class="overlay-icon row">
+                                                <a href="index.html" target="_blank">
+                                                    <div class="icon">
+                                                        <i class="fab fa-twitter"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="index.html" target="_blank">
+                                                    <div class="icon">
+                                                        <i class="fab fa-facebook-f"></i>
+                                                    </div>
+                                                </a>
+                                                <a href="index.html" target="_blank">
+                                                    <div class="icon">
+                                                        <i class="fab fa-linkedin-in"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-desc">
+                                    <p class="team-name">Tyrone Koningverdraag</p>
+<!--                                    <p class="team-job">Recruiter</p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---END TEAM-->
+    </div>
+    <!--- CONTENT END -->
+</div>
+<!--- MAIN WRAPPER END -->

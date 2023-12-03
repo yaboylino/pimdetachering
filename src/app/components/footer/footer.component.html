@@ -1,0 +1,72 @@
+<!---FOOTER START
+    ==================================-->
+<footer id="footer" class="footer clearfix">
+    <div class="footer-widget">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="column column-3 footer-widget-component">
+                    <a href="index.html">
+                        <img class="footer-logo res-img" src="assets/images/logo.png" alt="footer-logo"/>
+                    </a>
+                    <p class="footer-text footer-desc">
+                        {{'footer.description' | translate}}
+                    </p>
+                </div>
+                <div class="column column-3 footer-widget-component  text-white">
+                    <p class="footer-title">{{'footer.contact.title' | translate}}</p>
+                    <hr class="left-hr"/>
+                    <p class="footer-text"><b>(036) 000 0000</b></p>
+                    <p class="footer-text">Argonweg 23</p>
+                    <p class="footer-text"> 1362 AA Almere</p>
+                    <p class="footer-text"> +31 (0)85 400 81 81</p>
+                    <a href="mailto:{{email}}" class="footer-text footer-email">{{email}}</a>
+                </div>
+                <div class="column column-3 footer-widget-component">
+                    <p class="footer-title text-white">{{'footer.socials.title' | translate}}</p>
+                    <hr class="left-hr"/>
+                    <p class="footer-text">
+                        {{'footer.socials.description' | translate}}
+                    </p>
+                    <div class="footer-icon-wrapper">
+                        <a href="index.html" target="_blank">
+                            <div class="footer-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                        </a>
+                        <a href="index.html" target="_blank">
+                            <div class="footer-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </a>
+                        <a href="index.html" target="_blank">
+                            <div class="footer-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom clear-fix">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="footer-copyright column column-2">
+                    &copy; Copyright <span id="year"></span>, {{'footer.built_by' | translate}}&nbsp;<a href="https://themesawesome.com/"
+                                                                              class="text-green">WebLord</a>
+                </div>
+                <div class="column column-2 footer-nav">
+                    <div class="footer-menu-wrapper">
+                            @for (item of menu; track item.name) {
+                            <div class="footer-menu">
+                                <a class="footer-link" href="{{item.link}}">{{item.name | translate}}</a>
+                        </div>
+                            }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--END FOOTER-->

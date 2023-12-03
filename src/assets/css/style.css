@@ -1,0 +1,3265 @@
+/*
+Theme Name: Konsultan Html
+Theme URI: https://html.themesawesome.com/konsultanhtml
+Author: Themes Awesome
+Author URI: https://www.themesawesome.com
+Version: 1.0
+
+-----------------------------------------------------------------------------------
+[Color Codes]
+
+#Black (text) = #000000
+#Green (border,hr,text,button, hover) = #02ad88
+#Dark Blue (title, text)= #292e55
+#Gray (text)= #555555
+#Dark Gray (border)= #7a7a7a
+#Light Gray (background)= #f5f5f5
+#Light Blue (background)= #f4f7fc
+
+[Typography]
+
+Headers: 54px/26px/17px/16px/14px/12px Poppins
+Heading: 50px/32px/30px Poppins
+paragraph: 16px Roboto
+FooterNav: 14px Roboto
+Input,Textarea & Option: 15px/13px Poppins,Roboto
+Links: 16px Poppins,Roboto
+Icons: 30px/25px/15px Fontawesome
+
+Notes: To change the font, install it manually with convert the download zipped font to transfonter.org
+
+-----------------------------------------------------------------------------------
+  1. CSS Reset
+    1.1 Button Style / .style-1
+  2. Header / .main-header
+    2.1 Header Style 1(Transparant) / .main-nav
+    2.2 Header Style 2(White) /.nav-white
+    2.3 Header Img Block / .header-text
+  3. Home Page
+    3.1 Header Swiper / .header-swiper
+    3.2 About / .About
+    3.3 Homepage Services loop / .Services
+    3.4 Homepage Appointment / .Appointment
+    3.5 Homepage Team list / .Team
+    3.6 Experience / .Experience
+    3.7 Homepage Blog Loop / .Blog
+    3.8 Homepage Testimoni / .Testimoni
+    3.9 Newsletter / .Newsletter
+  4. About Page
+    4.1 About Us / .About-us
+    4.2 Aboutpage Team list / .Teams
+    4.3 Aboutpage Testimoni / .Testimoni-img-bg
+    4.4 Partner / .Partner
+    4.5 Aboutpage Appointment / .Appointment-bg-img
+  5. Services Page
+    5.1 Services loop / .Services-list
+    5.2 Service Experience / .service-experience
+  6. Single Service Page
+    6.1 Single Service / .single-service-wrapper
+      6.1.1 Service Title / .single-title-wrapper
+      6.1.2 Single Service Post / .single-service-post
+      6.1.3 Single Service Sidebar / .service-sidebar
+  7. Blog Page
+    7.1 Blog loop / .blog-loop-wrapper
+    7.2 Blog Page & Single Blog Post Sidebar / .blogPost-side-menu
+  8. Single Post
+    8.1 single Post Article / .blog-single
+  9. Contact Page
+    9.1 Information & Contact Form / .Contact-detail
+    9.2 Maps / .GoogleMaps
+  10. Appointment Page
+    10.1 Appointment Page Services List / .appointment-services
+    10.2 Appointment Page Testimoni / .appointment-testimoni
+  11. Footer / .footer
+    11.1 Footer Widget / .footer-widget
+    11.2 Footer Copyright / .footer-bottom
+-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  1. CSS Reset
+/*-----------------------------------------------------------------------------------*/
+
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+body p {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26.5px;
+}
+
+*::-moz-selection {
+    background-color: #02ad88;
+    color: #fff;
+}
+
+*::selection {
+    background-color: #02ad88;
+    color: #fff;
+}
+
+.column {
+    display: inline-block;
+    float: left;
+}
+
+.column-1 {
+    width: 100%;
+}
+
+.column-2 {
+    width: 50%;
+}
+
+.column-3 {
+    width: 33.33333%;
+}
+
+.column-2of3 {
+    width: 66.66667%;
+}
+
+.column-4 {
+    width: 25%;
+}
+
+.column-5 {
+    width: 20%;
+}
+
+.column-25 {
+    width: 25%;
+}
+
+.column-75 {
+    width: 75%;
+}
+
+.column-40 {
+    width: 40%;
+}
+
+.column-60 {
+    width: 60%;
+}
+
+.column {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.img-left {
+    float: left;
+}
+
+.img-right {
+    float: right;
+}
+
+.res-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-black {
+    color: #000;
+}
+
+.letter-space5 {
+    letter-spacing: 5px;
+}
+
+.left-hr {
+    margin-left: 0px;
+    width: 10%;
+    height: 4px;
+    background-color: #02ad88;
+    border: none;
+}
+
+.flex-hr {
+    margin: 0px;
+    width: 30%;
+    height: 3px;
+    background-color: #02ad88;
+    border: none;
+}
+
+.center-hr {
+    width: 5%;
+    height: 3px;
+    background-color: #02ad88;
+    border: none;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-green {
+    color: #02ad88;
+}
+
+.text-blue {
+    color: #292e55;
+}
+
+.text-gray {
+    color: #555;
+}
+
+.text-light-gray {
+    color: #676a6a;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.bg-light-blue {
+    background-color: #f4f7fc;
+}
+
+.bg-gray {
+    background-color: #f8f8f8;
+}
+
+.m-a {
+    margin: auto;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mr-10px {
+    margin-right: 10px;
+}
+
+.pd-l-3 {
+    padding-left: 3%;
+}
+
+.pd-5 {
+    padding: 5%;
+}
+
+.img-zoom-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-zoom-wrapper img {
+    display: block;
+    transition: all 0.4s;
+    height: auto;
+    transform: scale(1);
+}
+
+.img-zoom-wrapper:hover img {
+    transform: scale(1.1);
+    filter: brightness(75%);
+}
+
+.img-translate-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-translate-wrapper img {
+    display: block;
+    transition: all 0.4s;
+    height: auto;
+    transform: scale(1.06);
+}
+
+.img-translate-wrapper:hover img {
+    transform: translate3d(3%, 0, 0) scale(1.06);
+    filter: brightness(75%);
+}
+
+/* 1.1 button style / .style-1 */
+.button {
+    font-family: "Poppins";
+    border-radius: 30px;
+    border: 2px solid #02ad88;
+    padding: 10px 20px;
+    color: #ffff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+}
+
+button:hover {
+    outline: none !important;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.style-1 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #02ad88;
+    padding: 10px 22px;
+    outline: none;
+}
+
+.style-1:hover {
+    background-color: #02ad88;
+    outline: none;
+}
+
+.style-2 {
+    background-color: #ffff;
+    border: 3px solid #02ad88;
+    color: #292e55;
+    outline: none;
+}
+
+.style-2:hover {
+    background-color: #02ad88;
+    color: #ffff;
+    transform: translateY(10px);
+    outline: none;
+}
+
+.style-3 {
+    background-color: #02ad88;
+    outline: none;
+}
+
+.style-3:hover {
+    background: none;
+    color: #292e55;
+    transform: translateY(10px);
+    outline: none;
+}
+
+.style-4 {
+    border-radius: 0;
+    background-color: #02ad88;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    outline: none;
+}
+
+.style-5 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid #02ad88;
+    padding: 10px 22px;
+    font-size: 15px;
+    outline: none;
+}
+
+.style-5 span {
+    color: #fff;
+}
+
+.style-5:hover {
+    background-color: rgba(99, 99, 99, 0.651);
+    transform: translateY(10px);
+    outline: none;
+}
+
+.style-6 {
+    border: none;
+    background-color: #191919;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 24px;
+    transition: 0.4s;
+    font-size: 16px;
+    outline: none;
+}
+
+.style-6:hover {
+    background-color: #fff;
+    color: #000;
+    outline: none;
+}
+
+.style-7 {
+    background-color: #191919;
+    color: #fff;
+    outline: none;
+}
+
+.style-7:hover {
+    background-color: #02ad88;
+    outline: none;
+}
+
+.style-8 {
+    background-color: #02ad88;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+}
+
+.style-8:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.style-9 {
+    background-color: #02ad88;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+}
+
+.style-10 {
+    background-color: #ffff;
+    color: #292e55;
+    outline: none;
+}
+
+.style-10:hover {
+    background-color: #02ad88;
+    color: #ffff;
+    outline: none;
+}
+
+.style-11 {
+    background-color: #fff;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    padding: 10px 24px;
+    border: 3px solid #02ad88;
+    outline: none;
+}
+
+.style-11:hover {
+    background-color: #02ad88;
+    color: #fff;
+}
+
+.style-pagination {
+    border-radius: 0;
+    background-color: #ffff;
+    padding: 7px 19px;
+    color: #02ad88;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.style-pagination:hover {
+    background-color: #02ad88;
+    color: #fff;
+}
+
+.current {
+    background-color: #02ad88;
+    color: #fff;
+}
+/* end button style */
+/*-----------------------------------------------------------------------------------*/
+/*  2. Header / .main-header
+/*-----------------------------------------------------------------------------------*/
+/* 2.1 Header Style 1(Transparant) / .main-nav */
+.main-nav {
+    position: absolute;
+    padding: 20px 25px 20px 25px;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main-nav .container {
+    display: flex;
+}
+
+.left-nav {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+}
+
+.right-nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.main-nav:after {
+    clear: both;
+    content: "\00a0";
+    display: block;
+    height: 0;
+    font: 0px/0 serif;
+    overflow: hidden;
+}
+
+.nav-brand {
+    float: left;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    padding: 3px 0;
+}
+
+.contact-button {
+    padding: 15px 5px 15px 0;
+}
+
+.contact-button .style-1 {
+    border: 3px solid #02ad88;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 23px;
+}
+
+.menu-item {
+    margin-right: 10%;
+}
+
+.menu-item-white {
+    margin-right: 10%;
+}
+
+#main-menu {
+    margin: 0;
+    padding: 20px 0 20px 40px;
+    display: flex;
+    clear: both;
+    border-bottom: 0;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+    color: #f5f5f5;
+}
+
+.contact {
+    margin-top: 5px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.telp-icon {
+    color: #02ad88;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.small-text {
+    display: block;
+    margin-top: 5px;
+    font-family: "Poppins";
+    font-style: italic;
+    font-size: 12px;
+}
+
+.telp-text {
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+/* 2.2 Header Style 2(White) /.nav-white */
+.nav-white {
+    position: relative;
+    background-color: #fff;
+    padding: 20px 0 20px 0;
+}
+
+.white-nav .style-11 {
+    padding: 10px 23px;
+    border: 3px solid #02ad88;
+    font-weight: 700;
+}
+
+.brand-nav-white {
+    margin-left: 0;
+}
+
+.menu-item-white {
+    color: #000;
+    margin-right: 30px;
+}
+
+.nav-link-black {
+    color: #000;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.nav-link-black:hover {
+    color: #02ad88;
+}
+/* end white nav */
+
+/* Mobile menu toggle button */
+
+.main-menu-btn {
+    position: relative;
+    margin: 14px 0 10px;
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    text-indent: 29px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgb(0, 0, 0, 0);
+}
+
+/* hamburger icon */
+
+.main-menu-btn-icon,
+.main-menu-btn-icon:before,
+.main-menu-btn-icon:after {
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    height: 2px;
+    width: 24px;
+    background: #fff;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.main-menu-btn-icon-gray,
+.main-menu-btn-icon-gray:before,
+.main-menu-btn-icon-gray:after {
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    height: 2px;
+    width: 24px;
+    background: #bbb;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.main-menu-btn-icon:before,
+.main-menu-btn-icon-gray:before {
+    content: "";
+    top: -7px;
+    left: 0;
+}
+
+.main-menu-btn-icon:after,
+.main-menu-btn-icon-gray:after {
+    content: "";
+    top: 7px;
+    left: 0;
+}
+
+/* x icon */
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon,
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon-gray {
+    height: 0;
+    background: transparent;
+}
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:before,
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon-gray:before {
+    top: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:after,
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon-gray:after {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* hide menu state checkbox (keep it visible to screen readers) */
+
+#main-menu-state {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* hide the menu in mobile view */
+
+#main-menu-state:not(:checked) ~ #main-menu {
+    display: none;
+}
+
+#main-menu-state:checked ~ #main-menu {
+    display: block;
+}
+
+@media (min-width: 780px) {
+    /* hide the button in desktop view */
+    .main-menu-btn {
+        position: absolute;
+        top: -99999px;
+    }
+    /* always show the menu in desktop view */
+    #main-menu-state:not(:checked) ~ #main-menu {
+        display: flex;
+        list-style: none;
+    }
+}
+
+/* 2.3 Header Img Block / .header-text */
+
+.header-text.about {
+    position: relative;
+    background: url("./images/hero-image.jpg") rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 210px 0 168px;
+    width: 100%;
+}
+
+.header-text.service {
+    position: relative;
+    background: url("./images/hero-image.jpg") rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 203px 0 155px;
+    width: 100%;
+}
+
+.header-text.contact-header {
+    position: relative;
+    background: url("./images/hero-image.jpg") rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 203px 0 254px;
+    width: 100%;
+    border-bottom: 4px solid #7a7a7a;
+}
+
+.header-text.appointment {
+    position: relative;
+    background: url("./images/hero-image.jpg") rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 205px 0 170px;
+    width: 100%;
+}
+
+.header-text hr {
+    margin-top: 12px;
+    height: 4px;
+    width: 60px;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.header-title p {
+    font-family: "Karla", Sans-serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.header-desc {
+    text-align: center;
+}
+
+.header-desc h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+}
+/* end header */
+
+/*-----------------------------------------------------------------------------------*/
+/*  3. Home Page
+/*-----------------------------------------------------------------------------------*/
+
+/* 3.1 Header Swiper / .header-swiper */
+.swiper-slide {
+    z-index: -10;
+}
+
+.swiper-bg {
+    position: relative;
+    z-index: -15;
+    background: url("./images/slider-1s.jpg");
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(95%);
+    height: 100vh;
+    width: 100%;
+}
+
+.header-text-wrap {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-text {
+    position: relative;
+    padding: 0 60px 0 80px;
+}
+
+.header-shape {
+    position: relative;
+    width: 550px;
+    left: 25px;
+}
+
+.header-swiper .header-title p {
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+.header-swiper .header-desc p {
+    font-family: "Poppins";
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.header-swiper .header-desc a {
+    color: #fff;
+}
+
+.header-swiper .header-button {
+    position: absolute;
+    bottom: 8%;
+    left: 13%;
+}
+
+.header-swiper .swiper-container-horizontal > .swiper-pagination-bullets {
+    display: block;
+    border-radius: 20px;
+    border: 3px solid #fff;
+    padding: 0 5px;
+    width: 20px;
+    left: 50%;
+    bottom: 9%;
+    transform: translate(-50%, -9%);
+}
+
+.swiper-pagination span {
+    background-color: #fff;
+}
+
+.header-swiper .swiper-button-next {
+    background-color: #000;
+    opacity: 0.5;
+    color: rgb(233, 182, 182);
+    height: 11%;
+    width: 1.5%;
+    top: 46.5%;
+    right: 0;
+}
+
+.header-swiper .swiper-button-next::after {
+    font-size: 15px;
+}
+
+.header-swiper .swiper-button-prev {
+    background-color: #000;
+    opacity: 0.5;
+    color: #fff;
+    height: 11%;
+    width: 1.5%;
+    top: 46.5%;
+    left: 0;
+}
+
+.header-swiper .swiper-button-prev::after {
+    font-size: 15px;
+}
+
+.header-swiper .header-title {
+    position: absolute;
+    top: 9%;
+    left: 14%;
+}
+
+.header-swiper .header-sub-title {
+    position: absolute;
+    top: 17px;
+    left: -63px;
+    width: 100%;
+    z-index: 10;
+    font-size: 54px;
+    line-height: 100px;
+}
+
+.header-swiper .header-desc {
+    position: absolute;
+    bottom: 19%;
+    left: 13%;
+    max-width: 480px;
+    text-align: left;
+}
+
+.header-swiper .learn-more {
+    margin-top: 10px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-animation: learn-more-animation 3s ease infinite alternate;
+}
+
+@keyframes learn-more-animation {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(5px, 0);
+    }
+
+    80% {
+        transform: translate(-5px, 0);
+    }
+}
+
+/* 3.2 About / .About*/
+
+.About {
+    padding: 100px 0px 110px 0px;
+}
+
+.about-section-title h2 {
+    font-size: 50px;
+    line-height: 62px;
+    margin: 0;
+}
+
+.about-section-title hr {
+    height: 4px;
+}
+
+.about-section .about-desc {
+    margin-bottom: 50px;
+}
+
+.about-button a {
+    padding: 10px 25px;
+}
+
+.sub-title {
+    font-family: "Poppins";
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 45px;
+    color: #292e55;
+    font-weight: 400;
+}
+
+.gallery-section {
+    padding: 0 4px 0 0;
+}
+
+.gallery {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-2.gallery-section .gallery {
+    align-items: flex-end;
+}
+
+.column-2.gallery-section .gallery img {
+    object-fit: cover;
+}
+
+.img-gallery {
+    position: relative;
+    margin-right: 15px;
+}
+
+.on-hover-component {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.46);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    transition: 0.4s ease-in-out;
+}
+
+.on-hover-component i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #ffff;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-image {
+    width: 100%;
+    display: block;
+}
+
+.img-gallery:hover .on-hover-component {
+    opacity: 90%;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.images {
+    display: block;
+    margin-right: auto;
+    margin-top: -5px;
+    height: 305px;
+    max-width: 100%;
+}
+
+.about-text {
+    padding: 8% 0 0 0;
+}
+
+.about-text p {
+    padding-right: 15px;
+}
+
+.about-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+/* 3.3 Homepage Services loop / .Services */
+
+.Services {
+    background-color: #f4f7fc;
+    padding: 60px 0;
+}
+
+.services-title {
+    padding-right: 15px;
+}
+
+.services-title h3 {
+    font-size: 30px;
+    margin-top: 25px;
+    line-height: 36px;
+    max-width: 320px;
+}
+
+.services-title p {
+    padding: 0 0 14px;
+    font-weight: 300;
+}
+
+.service-button {
+    transition: 0.4s;
+}
+
+.service-button:hover {
+    transform: translateY(10px);
+}
+
+.service-card-loop {
+    display: flex;
+    flex-wrap: wrap;
+    width: 61%;
+    padding: 10px 0;
+}
+
+.service-card-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.services-card {
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.4s;
+    box-shadow: 0px 5px 5px 5px rgba(64, 64, 64, 0.05);
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.services-card:hover {
+    box-shadow: 0px 5px 5px 5px rgba(64, 64, 64, 0);
+}
+
+.service-images .services-card-img {
+    padding: 0 15px;
+}
+
+.card-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+}
+
+.services-card-body .card-title {
+    cursor: unset;
+    line-height: 35px;
+    margin-bottom: 5px;
+    color: #292e55;
+}
+
+.service-card-desc {
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* 3.4 Homepage Appointment / .Appointment */
+
+.Appointment {
+    position: relative;
+    background-color: #1b1b1b;
+    border: 1px solid #1b1b1b;
+    padding: 90px 0 180px;
+}
+
+.Appointment::before {
+    border-bottom: 41px solid #1b1b1b;
+    border-left: 25vw solid transparent;
+    border-right: 73vw solid transparent;
+    width: 0;
+    height: 0;
+    content: "";
+    overflow: hidden;
+    position: absolute;
+    bottom: 100%;
+}
+
+.Appointment .desc-wrap {
+    padding-right: 26px;
+}
+
+.appointment-body h2 {
+    color: #fff;
+    margin: 0;
+}
+
+.appointment-title h2 {
+    font-size: 24px;
+    padding: 0 15px;
+    line-height: 30px;
+}
+
+.appointment-title hr {
+    width: 30%;
+}
+
+.left-hr.mobile-hide {
+    display: block;
+}
+
+.Appointment .main-office {
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.main-office h2,
+.branc-office h2 {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.Appointment .appointment-telp {
+    color: #aaa;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.main-office p,
+.branc-office p {
+    margin: 0;
+}
+
+.Appointment .branc-office {
+    padding-left: 0;
+}
+
+.left-hr.mobile {
+    display: none;
+}
+
+.appoitnment-form {
+    margin-top: 25px;
+}
+
+.left-form {
+    padding-left: 18px;
+    padding-right: 23px;
+}
+
+.right-form {
+    padding-left: 0;
+    padding-right: 42px;
+}
+
+.input-field {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+
+.form-input {
+    font-family: "Roboto";
+    outline: none;
+    background: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    width: 100%;
+}
+
+.form-input::placeholder {
+    color: #fff;
+}
+
+.form-input:hover {
+    background-color: rgba(66, 66, 66, 0.5);
+    border: 1px solid #02ad88;
+}
+
+.form-input:focus {
+    outline: none;
+    background-color: rgba(66, 66, 66, 0.5);
+    border: 1px solid #02ad88;
+}
+
+.form-textarea {
+    font-family: "Roboto";
+    outline: none;
+    background: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    width: 100%;
+}
+
+.form-textarea::placeholder {
+    color: #fff;
+}
+
+.form-textarea:hover {
+    background-color: rgba(66, 66, 66, 0.5);
+    border: 1px solid #02ad88;
+}
+
+.form-textarea:focus {
+    background-color: rgba(66, 66, 66, 0.5);
+    border: 1px solid #02ad88;
+}
+
+.form-select {
+    font-family: "Roboto";
+    outline: none;
+    background: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #aaa;
+    width: 100%;
+}
+
+option {
+    background-color: #1b1b1b;
+}
+
+.form-select:hover {
+    border: 1px solid #02ad88;
+}
+
+.form-select:focus {
+    border: 1px solid #02ad88;
+}
+
+.appoitnment-form button {
+    margin-top: 20px;
+    padding: 8px 10px;
+}
+
+.map-wrap {
+    position: relative;
+    padding: 0;
+}
+
+.gMaps {
+    position: absolute;
+    z-index: 10;
+    width: 432px;
+    height: 100%;
+    bottom: 205px;
+    right: 20px;
+}
+
+.gMaps #gmap_canvas {
+    width: 100%;
+    height: 700px;
+}
+
+/* 3.5 Homepage Team list / .Team */
+.Team {
+    margin-top: 0;
+    padding: 100px 0 94px;
+}
+
+.team-section-desc {
+    width: 27%;
+}
+
+.team-title {
+    margin: auto;
+    margin-top: 46px;
+}
+
+.team-title p {
+    margin-top: 24px;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.team-title h3 {
+    font-size: 32px;
+    margin: 0;
+    line-height: 60px;
+}
+
+.team-title hr {
+    width: 15%;
+}
+
+.team-body {
+    margin-top: 28px;
+}
+
+.team-body a {
+    color: #292e55;
+    font-weight: 600;
+    border-bottom: 1px solid #292e55;
+    transition: 0.4s;
+}
+
+.team-body a:hover {
+    color: #02ad88;
+}
+
+.team-list {
+    width: 70%;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.team-wrapper {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.team-img-wrapper {
+    display: inline-block;
+}
+
+.team-img {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.team-img .res-img {
+    display: block;
+    transition: all 0.4s;
+    transform: scale(1);
+}
+
+.team-img:hover .res-img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    padding: 15px;
+    background-color: #02ad88;
+    opacity: 0;
+    transition: 0.4s ease-in;
+}
+
+.team-img:hover .overlay {
+    opacity: 90%;
+}
+
+.overlay-body p {
+    line-height: 20px;
+}
+
+.overlay-icon {
+    position: absolute;
+    display: flex;
+    bottom: 10%;
+    left: 20px;
+}
+
+.icon {
+    background-color: #fff;
+    color: #000;
+    margin-left: 7px;
+    font-size: 15px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 37px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.team-desc {
+    margin-top: 1rem;
+}
+
+.team-name {
+    font-family: "Poppins";
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+.team-job {
+    font-size: 15px;
+    margin: 0;
+}
+
+/* 3.6 Experience / .Experience */
+.Experience {
+    position: relative;
+    background: url("images/hero-image.jpg");
+    height: auto;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Experience::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #1b1b1b;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.Experience .container {
+    padding: 100px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.experience-body {
+    color: #bababa;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.experience-body h3 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.experience-body p {
+    font-size: 18px;
+}
+
+.experience-button {
+    margin-top: 35px;
+    padding: 15px 25px;
+    transition: 0.4s;
+}
+
+.experience-button:hover {
+    transform: translateY(10px);
+}
+
+/* 3.7 Homepage Blog Loop / .Blog  */
+.Blog {
+    padding: 93px 0 100px;
+}
+
+.blog-title-wrap {
+    width: 100%;
+    padding-right: 5px;
+}
+
+.blog-title {
+    font-weight: 300;
+    color: #000;
+    cursor: pointer;
+}
+
+.title-text {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.blog-title h3 {
+    font-size: 32px;
+    margin: 0;
+    line-height: 63px;
+}
+
+.blog-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blog-button a {
+    margin-top: 69px;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 13px 30px;
+}
+
+.blog-loop {
+    margin-top: 40px;
+    padding-right: 8px;
+}
+
+.blog-list-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: calc(25px / 2);
+    padding-right: calc(25px / 2);
+}
+
+.blog-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    border-radius: 0;
+    transition: 0.6s;
+    border: 1px solid #efefef;
+}
+
+.blog-card:hover {
+    box-shadow: 0px 5px 5px 5px rgba(64, 64, 64, 0.1);
+}
+
+.card-img-wrapper {
+    position: relative;
+}
+
+.card-img-top img {
+    display: block;
+    transition: all 0.4s;
+    height: 175px;
+    transform: scale(1);
+}
+
+.blog-loop .card-img-top img {
+    height: 155px;
+}
+
+.card-img {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.card-category {
+    position: absolute;
+    padding: 1px 20px;
+    top: 91%;
+    background-color: #02ad88;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.card-category p {
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.Blog .card-body {
+    padding: 39px 42px;
+}
+
+.card-title {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 19px;
+    transition: 0.4s;
+    line-height: 34px;
+    margin-top: 15px;
+}
+
+.blog-card a {
+    color: #292e55;
+    transition: 0.4s;
+}
+
+.blog-card a:hover {
+    color: #02ad88;
+}
+
+.card-date {
+    font-family: "Roboto";
+    font-style: italic;
+}
+
+.Blog .card-date {
+    margin-top: 23px;
+    font-style: normal;
+}
+
+.blog-card:hover {
+    box-shadow: 0px 5px 5px 5px rgba(160, 160, 160, 0.2);
+}
+
+/* 3.8 Homepage Testimoni / .Testimoni */
+.Testimoni {
+    background-color: #f5f5f5;
+    padding: 83px 0 89px;
+}
+
+.testimoni-title {
+    line-height: 33px;
+    margin-bottom: 50px;
+    padding: 0 15px;
+}
+
+.testimoni-title p {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.testimoni-title h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.testimoni-title hr {
+    width: 25%;
+    margin-top: 22px;
+}
+
+.slider-wrap {
+    padding: 0 15px;
+}
+
+.testimoni-wrapper .client-image {
+    width: 191px;
+}
+
+.testimoni-quote-wrapper {
+    width: 100%;
+}
+
+.testimoni-quote {
+    display: flex;
+}
+
+.dot-img {
+    background: url("./images/testimoni-img2.png");
+    background-position: center;
+    width: 100%;
+    height: 75px;
+}
+
+.testimoni-icon {
+    background-color: #53f6c7;
+    text-align: center;
+    width: 100%;
+    padding: 13% 0 0 0;
+}
+
+.testimoni-img-wrapper {
+    display: flex;
+}
+
+.testimoni-img {
+    max-width: 100%;
+    height: 75px;
+}
+
+.client-testimoni-text {
+    padding-left: 27px;
+    padding-right: 30px;
+}
+
+.testimoni-text p {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 37px;
+    margin-top: 0;
+}
+
+.client-name {
+    color: #02ad88;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.client-job {
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+.testimoni-wrapper .owl-carousel button.owl-dot {
+    background-color: #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+}
+
+.owl-dots {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 5%;
+    left: -20px;
+    margin: auto;
+    margin-top: 56px;
+}
+
+.owl-carousel button.owl-dot.active {
+    opacity: 1;
+}
+
+/* 3.9 Newsletter / .Newsletter */
+
+.Newsletter {
+    position: relative;
+    background: url("./images/newsletter.png");
+    background-size: cover;
+    background-position: center center;
+    padding: 26px 0;
+}
+
+.newsletter-title {
+    text-align: left;
+    color: #fff;
+}
+
+.newsletter-title h3 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 37px;
+    margin: 0;
+}
+
+.newsletter-title p {
+    margin: 0;
+}
+
+.newsletter-form {
+    margin-top: 7px;
+    display: flex;
+}
+
+.newsletter-form form {
+    display: inline-block;
+    width: 68%;
+}
+
+.newsletter-input {
+    font-family: "Poppins";
+    color: #000;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    padding: 13px 27px;
+    border-radius: 25px;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Newsletter button {
+    margin-left: auto;
+}
+
+.newsletter-form-input {
+    padding-right: 20px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  4. About Page
+/*-----------------------------------------------------------------------------------*/
+
+/* 4.1 About Us / .About-us  */
+.About-us {
+    padding: 100px 0 65px;
+}
+
+.about-img-wrapper {
+    width: 53%;
+}
+
+.about-us {
+    width: 40%;
+    margin-left: 35px;
+    padding: 15px 0;
+}
+
+.about-title {
+    margin-bottom: 29px;
+}
+
+.about-title h3 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.about-body p {
+    line-height: 25px;
+}
+
+.about-name {
+    padding: 13px 10px;
+}
+
+.ceo-name {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    width: 40%;
+    line-height: 48px;
+}
+
+.relatedPost-wrapper {
+    margin-top: -15px;
+}
+
+.signature-img {
+    width: 115px;
+    height: auto;
+}
+
+/* 4.2 Aboutpage team list / .Teams */
+
+.Teams {
+    padding: 90px 0 90px;
+}
+
+.Teams .team-title {
+    margin-top: 0;
+}
+
+.team-about .team-title p {
+    margin-top: 0;
+}
+
+.team-about .team-title h3 {
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+.Teams hr {
+    width: 35%;
+}
+
+.team-about .team-list {
+    width: 100%;
+}
+
+.about-team-wrapper {
+    margin-top: 38px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.team-about .team-desc {
+    margin-top: 7px;
+}
+
+/* 4.3 Aboutpage testimoni / .Testimoni-img-bg */
+
+.Testimoni-img-bg {
+    height: auto;
+    background: url("images/hero-image.jpg") rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center center;
+    padding: 113px 0px;
+}
+
+.Testimoni-img-bg .testimoni-title {
+    margin: auto;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.Testimoni-img-bg .testimoni-title p {
+    line-height: 21px;
+}
+
+.Testimoni-img-bg .testimoni-title h3 {
+    line-height: 57px;
+}
+
+.Testimoni-img-bg .testimoni-about {
+    margin-top: 0;
+}
+
+.Testimoni-img-bg .owl-dots {
+    margin-top: 97px;
+}
+
+/* 4.4 Partner / .Partner */
+
+.Partner {
+    padding: 80px 0 63px 0;
+}
+
+.partner-wrapper {
+    display: flex;
+    padding: 0 15px;
+}
+
+.partner-body {
+    width: 30%;
+}
+
+.partner-text {
+    text-align: left;
+    margin-top: 33%;
+    padding-right: 15px;
+}
+
+.partner-title {
+    margin-bottom: 15px;
+}
+
+.partner-title p {
+    margin: 0;
+}
+
+.partner-text h3 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    line-height: 29px;
+}
+
+.partner-text hr {
+    width: 15%;
+}
+
+.partner-list {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-wrapper {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+/* 4.5 Aboutpage Appointment / .Appointment-bg-img */
+.Appointment-bg-img {
+    background: url("images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.Appointment-bg-img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1b1b1b;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.Appointment-bg-img .container {
+    padding: 80px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.appointment-text {
+    line-height: 65px;
+}
+
+.appointment-text h2 {
+    font-size: 50px;
+    line-height: 84px;
+    margin: 0;
+}
+
+.appointment-text h3 {
+    font-size: 35px;
+    line-height: 32px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.appointment-button {
+    padding: 37px;
+    transition: 0.4s;
+}
+
+.appointment-button:hover {
+    transform: translateY(10px);
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  5. Services Page
+/*-----------------------------------------------------------------------------------*/
+
+/* 5.1 Services Loop / .Services-list */
+
+.Services-list {
+    padding: 90px 0px 73px 0;
+    background-color: #f6f6f7;
+}
+
+.Services-list .row {
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.service-card-tablet {
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.service-cards {
+    border: 1px solid #efefef;
+    border-radius: 0;
+    transition: 0.4s;
+    margin: 0;
+}
+
+.service-cards:hover {
+    box-shadow: 0px 5px 5px 5px rgba(64, 64, 64, 6%);
+}
+
+.service-cards .service-card-img {
+    height: auto;
+}
+
+.service-card-body {
+    padding: 0 45px 35px;
+}
+
+.serviceman-name {
+    display: flex;
+}
+
+.serviceman-name p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.s-name {
+    color: #02ad88;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.s-name:hover {
+    color: #555;
+}
+
+.service-card-title h3 {
+    font-size: 23px;
+    line-height: 31px;
+    margin: 0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.service-card-title h3:hover {
+    color: #02ad88;
+}
+
+.service-card-button {
+    padding-top: 15px;
+}
+
+.service-card-button .style-8 {
+    font-size: 14px;
+    padding: 8px 13px;
+}
+
+/* 5.2 Service Experience / .service-experience */
+
+.service-experience .container {
+    padding: 100px 0 106px;
+}
+
+.service-experience .experience-button {
+    margin-top: 19px;
+}
+
+.service-experience .experience-body p {
+    font-size: 16px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  6. Single Services Page
+/*-----------------------------------------------------------------------------------*/
+
+/* 6.1 Single Service / .single-service-wrapper */
+.single-service-wrapper {
+    margin-bottom: 68px;
+}
+
+/* 6.1.1 Service Title / .single-title-wrapper */
+.service-title-wrapper {
+    background-color: #f5f9fd;
+    padding: 78px 0;
+    margin-bottom: 76px;
+}
+
+.service-title p {
+    color: #999;
+    margin: 0;
+}
+
+.service-title h1 {
+    font-size: 42px;
+    line-height: 0;
+}
+
+.service-post p {
+    line-height: 26.5px;
+}
+
+/* 6.1.2 Single Service Post / .single-service-post */
+
+blockquote {
+    position: relative;
+    padding: 33px 15px 20px 60px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 22px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote::before {
+    position: absolute;
+    color: #02ad88;
+    content: open-quote;
+    font-size: 14rem;
+    opacity: 0.3;
+    top: -23px;
+    left: 0;
+}
+
+.servicePost-blockquote p {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 0;
+}
+
+.relatedService-wrapper {
+    margin: 42px 0 60px;
+}
+
+.related-service-title h2 {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.related-service-wrapper {
+    background-color: #f5f9fd;
+    display: flex;
+    padding: 0 50px 20px 20px;
+}
+
+.related-title h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.related-title a {
+    color: #02ad88;
+    transition: 0.4s;
+}
+
+.related-title a:hover {
+    color: #adadad;
+}
+
+.related-body p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.service-qa-wrapper {
+    padding-bottom: 60px;
+}
+
+.service-qa-title h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.service-qa {
+    border-top: 1px solid #c9c9c9;
+    padding: 0 15px;
+}
+
+.service-quetion {
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.service-quetion h4 {
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.service-quetion:hover {
+    color: #02ad88;
+}
+
+.qa-icon {
+    position: absolute;
+    right: 0;
+}
+
+.service-answer {
+    color: #676a6a;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+/* 6.1.3 Single Service Sidebar / .service-sidebar */
+
+.service-sidebar {
+    padding-right: 21px;
+}
+
+.contact-us {
+    background-color: #191919;
+    padding: 50px 35px 57px;
+}
+
+.contact-img-wrapper img {
+    width: 160px;
+}
+
+.contact-banner-button .style-1 {
+    border: 3px solid #02ad88;
+    padding: 6px 18px;
+    font-weight: 600;
+}
+
+.contact-body {
+    margin-top: 20px;
+}
+
+.adress {
+    margin-bottom: 0;
+}
+
+.contact-banner-button {
+    margin-top: 62px;
+}
+
+.recent-services-wrapper {
+    margin-top: 43px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.services-item {
+    background-color: #f5f9fd;
+    padding: 10px 0 10px 25px;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.services-item h4 {
+    margin: 0;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.services-item:hover {
+    border-left: 4px solid #02ad88;
+}
+
+.brochures-wrapper {
+    width: 100%;
+}
+
+.side-download ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-download ul li {
+    display: flex;
+    background-color: #f5f9fd;
+    padding: 10px 15px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+.side-download ul li a {
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sideBar-title {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.sideBar-title h5 {
+    margin-top: auto;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.side-icon {
+    color: #02ad88;
+    font-size: 18px;
+}
+
+.side-title-text {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  7. Blog Page
+/*-----------------------------------------------------------------------------------*/
+/* 7.1 Blog Loop / .blog-loop-wrapper */
+.Blogs {
+    padding: 60px 0 105px;
+}
+
+.Blogs .column.column-75 {
+    padding-right: 30px;
+}
+
+.Blogs .row.blog-loop-wrapper {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.card-blog-loop {
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blog-card .blog-card-img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-card-img {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.blog-card-img:hover {
+    filter: brightness(70%);
+}
+
+.blog-card-body {
+    position: relative;
+    padding: 45px;
+}
+
+.blog-card-title {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 34px;
+    margin-top: 0;
+    margin-bottom: 21px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #000;
+}
+
+.blog-card-title:hover {
+    color: #02ad88;
+    text-decoration: none;
+}
+
+.blog-card-body .card-desc {
+    font-size: 16px;
+    color: #333;
+}
+
+.pagination-row {
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    padding: 5px 5px;
+}
+
+.left-border-none {
+    border-left: none;
+}
+
+/* 7.2 Blog Page & Single BLog Post Sidebar / .blogpost-side-menu */
+.sidebar-wrapper {
+    position: static;
+    display: block;
+    padding-right: 20px;
+}
+
+.blogPost-side-menu {
+    background-color: #fff;
+}
+
+.recent-post {
+    margin-top: 47px;
+}
+
+.recent-comments {
+    margin-top: 30px;
+}
+
+.user-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.categories {
+    margin-top: 30px;
+}
+
+.side-post-img-wrapper {
+    display: table-cell;
+    position: relative;
+    overflow: hidden;
+    width: 85px;
+    height: auto;
+}
+
+.side-post-img-wrapper img {
+    display: block;
+    height: 85px;
+    max-width: 100%;
+    transition: all 0.4s;
+    transform: scale(1);
+    object-fit: cover;
+}
+
+.side-post-img-wrapper:hover img {
+    transform: scale(1.1);
+    filter: brightness(75%);
+}
+
+.side-blog-desc {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 2px;
+    padding-left: 22px;
+}
+
+.side-post {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.comment-wrapper {
+    display: -webkit-inline-box;
+    border-bottom: 1px solid #efefef;
+}
+
+.recent-post .sideBar-title {
+    margin-bottom: 10px;
+}
+
+.side-blog {
+    margin-top: 11px;
+}
+
+.side-title {
+    font-family: "Poppins";
+    margin: 0;
+    cursor: pointer;
+    line-height: 22px;
+}
+
+.side-blog .side-title {
+    line-height: 35px;
+}
+
+.side-title a {
+    transition: 0.4s;
+}
+
+.side-title a:hover {
+    color: #02ad88;
+}
+
+.side-date {
+    font-family: "Roboto";
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.follow-us {
+    margin-top: 30px;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    margin: 10px 5px 10px 0;
+    border: 1px solid #02ad88;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 17px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.icon-wrapper:hover {
+    background-color: #02ad88;
+    color: #fff;
+}
+
+.category-wrapper {
+    border-top: 1px solid #efefef;
+}
+
+.category-name {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.category-name:hover {
+    color: #02ad88;
+}
+
+.sosmed-icon-wrapper {
+    display: block;
+}
+
+.featured-post-img {
+    max-width: 100%;
+    margin-top: 23px;
+}
+
+.blog-title a {
+    transition: 0.4s;
+}
+
+.blog-title a:hover {
+    color: #02ad88;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  8. Single Post
+/*-----------------------------------------------------------------------------------*/
+/* 8.1 Single Post Article / .blog-single */
+.BlogPost {
+    margin-top: 60px;
+    margin-bottom: 105px;
+}
+
+.blogPost-img-wrapper {
+    position: relative;
+    padding-right: 15px;
+}
+
+.blogPost-category {
+    position: absolute;
+    top: 96%;
+    background-color: #02ad88;
+    padding: 2px 21px;
+    color: #fff;
+}
+
+.blogPost-category p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blogPost-title-wrapper {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.blogPost-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 64px;
+    margin-top: 0;
+    margin-bottom: 7px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.blogPost-title:hover {
+    color: #02ad88;
+}
+
+.the-author {
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.author-name-wrap,
+.post-date {
+    color: #696969;
+}
+
+.author-name {
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.author-name:hover {
+    color: #999999;
+}
+
+.blogPost-body {
+    padding-right: 15px;
+}
+
+.blogPost-body p {
+    font-weight: normal;
+    color: #494949;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.blogPost-body-img {
+    margin-top: 5px;
+}
+
+.blog-post-img {
+    width: 302px;
+    height: 198px;
+    margin: 5px 20px 20px 0;
+}
+
+.blogPost-body .img-right {
+    width: 296px;
+    margin: 5px 0 0 15px;
+}
+
+.blogPost-Quote-wrapper {
+    margin-top: 20px;
+    padding: 29px 15px 35px 60px;
+}
+
+.blogPost-Quote-wrapper p {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 0;
+    color: #000000;
+}
+
+.blogPost-body .blogPost-text-3 {
+    margin-top: 19px;
+    line-height: 25px;
+}
+
+.blogPost-body .blogPost-text-4 {
+    margin-top: 18px;
+    line-height: 25px;
+}
+
+.blogPost-tag-wrapper {
+    display: flex;
+}
+
+.tag-wrapper {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 4px 5px;
+}
+
+.tag-wrapper li p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.tag {
+    font-family: "Roboto";
+    border: 1px solid #d5d5d5;
+    padding: 3px 10px;
+    font-size: 10px;
+    line-height: 20px;
+    color: #555;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.4s;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.tag a {
+    transition: 0.4s;
+}
+
+.tag:hover {
+    border: 1px solid #02ad88;
+    color: #02ad88;
+}
+
+.author-desc-wrapper {
+    display: flex;
+    padding: 40px 0;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    margin-top: 10px;
+}
+
+.user-avatar {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.user-avatar img {
+    border-radius: 50%;
+}
+
+.author-name a {
+    font-size: 17px;
+    margin-top: 0;
+    line-height: 41px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.author-desc p {
+    margin-top: 0;
+    font-size: 15px;
+    color: #494949;
+    line-height: 25px;
+}
+
+.relatedPost-wrapper h3 {
+    font-size: 30px;
+}
+
+.blog-wrapper .blog-card-body {
+    padding: 46px;
+}
+
+.related-post-card .card-date {
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  9. Contact Page
+/*-----------------------------------------------------------------------------------*/
+/* 9.1 Information & Contact Form / .Contact-detail */
+.Contact-detail {
+    position: relative;
+    padding: 70px 0 90px;
+}
+
+.information-wrapper {
+    padding: 0 75px 0 15px;
+}
+
+.contact-detail-title {
+    padding: 10px 0 0;
+}
+
+.contact-detail-title h2 {
+    font-size: 45px;
+    line-height: 49px;
+    color: #262626;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.info-detail hr {
+    position: relative;
+}
+
+.contact-detail-title hr {
+    width: 32%;
+    height: 4px;
+}
+
+.info-offset.detail-tablet-2 {
+    padding-left: 30px;
+}
+
+.office-detail {
+    padding: 5px 0 0;
+}
+
+.office-site {
+    font-family: "Poppins";
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.contact-list {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.contact-desc {
+    padding: 0 15px;
+}
+
+.office-info-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.office-site-card {
+    width: 39%;
+    display: flex;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.icon-site {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.icon-site i {
+    font-size: 25px;
+}
+
+.site-type {
+    font-family: "Poppins";
+    margin: 0;
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 7px;
+}
+
+.site-text .site-address {
+    margin: 0;
+}
+
+.contact-form-wrap {
+    margin-top: -213px;
+}
+
+.contact-form {
+    position: relative;
+    bottom: 0;
+    left: -77px;
+    background-color: #262626;
+    border: 4px solid #7a7a7a;
+    padding: 59px 40px 183px;
+    height: 100%;
+    width: 397px;
+    margin-top: 0;
+}
+
+.contact-form form {
+    padding: 0 37px;
+}
+
+.contact-form .style-9 {
+    width: 160px;
+    margin-top: 25px;
+}
+
+.Contact-detail .form-input {
+    padding: 11px;
+}
+
+.Contact-detail .form-textarea {
+    padding: 13px;
+}
+
+.input-spacer {
+    margin-right: 30px;
+}
+
+.contact p {
+    margin: 0;
+}
+
+/* 9.2 Maps / .GoogleMaps */
+.GoogleMaps {
+    margin-bottom: 180px;
+}
+
+.contact-map {
+    height: 400px;
+}
+
+#gmap_canvas {
+    border-width: 0;
+    width: 100%;
+    height: 580px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  10. Appointment
+/*-----------------------------------------------------------------------------------*/
+/* 10.1 Appointment Page Services List / .appointment-services */
+.appointment-services {
+    margin-top: 0;
+    padding: 30px 0 215px;
+}
+
+.services-text {
+    width: 35%;
+    padding: 0 15px;
+}
+
+.appointment-services .services-title h3 {
+    margin-bottom: 18px;
+}
+
+.appointment-services .services-title p {
+    color: #000000;
+    margin-top: 0;
+    padding: 0 30px 20px 0;
+}
+
+/* 10.2 Appointment Page Testimoni / .appointment-testimoni */
+.appointment-testimoni {
+    margin-top: 0;
+    padding: 110px 0 117px;
+}
+
+.appointment-testimoni .testimoni-title {
+    line-height: 0;
+    margin-bottom: 40px;
+}
+
+.appointment-testimoni .testimoni-title h3 {
+    line-height: 43px;
+}
+
+.appointment-testimoni .testimoni-title hr {
+    margin-top: 38px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  11. Footer
+/*-----------------------------------------------------------------------------------*/
+/* 11.1 Footer Widget / .footer-widget */
+.footer-widget {
+    padding: 60px 0;
+    background-color: #191919;
+}
+
+.footer-logo {
+    width: 100%;
+}
+
+.footer-text {
+    color: #aaaaaa;
+    line-height: 28px;
+}
+
+.footer-widget-component .footer-desc {
+    padding-bottom: 16px;
+    margin-top: 14px;
+    line-height: 24px;
+}
+
+.footer-widget-component .style-7 {
+    border: 3px solid #02ad88;
+    padding: 10px 25px;
+}
+
+.footer-title {
+    font-family: "Poppins";
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.4s;
+    margin: 0;
+    line-height: 30px;
+}
+
+.footer-email {
+    margin: 0;
+}
+
+.footer-widget-component hr {
+    width: 18%;
+    height: 2px;
+}
+
+.footer-news-wrapper {
+    display: block;
+    margin-top: -12px;
+    padding: 0 15px;
+}
+
+.footer-news-img {
+    width: 85px;
+    height: 85px;
+}
+
+.footer-news-item {
+    display: block;
+}
+
+.footer-news-wrapper .img-zoom-wrapper {
+    display: table-cell;
+}
+
+.footer-news-text {
+    padding-left: 17px;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.footer-news-title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-news-title:hover {
+    color: #02ad88;
+}
+
+.footer-news-text p {
+    margin: 0;
+}
+
+.footer-news-date {
+    font-size: 12px;
+}
+
+.footer-icon-wrapper {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-icon {
+    font-size: 16px;
+    margin-right: 7px;
+    color: #858585;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 37px;
+    border: 1px solid #858585;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.footer-icon:hover {
+    color: #02ad88;
+    border: 1px solid #02ad88;
+}
+
+/* 11.2 Footer Copyright / .footer-bottom */
+
+.footer-bottom {
+    padding: 30px 0;
+    background-color: #2b2b2b;
+}
+
+.footer-copyright {
+    color: #aaaaaa;
+    font-size: 16px;
+}
+
+.footer-copyright a {
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    color: #02ad88;
+    text-decoration: none;
+}
+
+.footer-menu-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-menu {
+    margin-right: 10px;
+}
+
+.footer-link {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.footer-link:hover {
+    color: #555;
+    text-decoration: none;
+}

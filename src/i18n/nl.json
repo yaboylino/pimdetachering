@@ -1,0 +1,77 @@
+{
+    "header": {
+        "menu": {
+            "home": "Home",
+            "method": "Werkwijze",
+            "contact": "Contact",
+            "employers": "Opdrachtgevers",
+            "cta": "Afspraak maken",
+            "call_us_today": "Bel ons vandaag"
+        }
+    },
+    "footer": {
+        "description": "Pim Detachering is een jong, dynamisch bedrijf dat zich onderscheidt in de wereld van IT-detachering.",
+        "menu": {
+            "home": "Home",
+            "method": "Werkwijze",
+            "employers": "Opdrachtgevers",
+            "contact": "Contact"
+        },
+        "contact": {
+            "title": "Neem Contact Op"
+        },
+        "socials": {
+            "title": "Volg ons op",
+            "description": "Blijf op de hoogte van onze laatste updates en nieuws"
+        },
+        "built_by": "Gemaakt door"
+    },
+    "home": {
+        "hero": {
+            "title": "YOUR JOB IS OUR JOB!",
+            "description": "Bij Pim Detachering, verbinden we talent met kansen. Wij zijn toegewijd om de perfecte match te vinden die past bij uw vaardigheden en ambities. Ontdek een wereld van mogelijkheden waar uw carrière centraal staat.",
+            "button": "Over ons"
+        },
+        "about": {
+            "title": "Onze Reis, Uw Toekomst",
+            "motto": "Een betrouwbare partner!",
+            "description": "Pim Detachering is een jong, dynamisch bedrijf dat zich onderscheidt in de wereld van IT-detachering. Wij zijn gespecialiseerd in het vinden en plaatsen van top IT-talent in een breed scala aan sectoren. Onze expertise ligt in het verbinden van gespecialiseerde IT-professionals met uitdagende en verrijkende rollen in zowel start-ups als gevestigde bedrijven.",
+            "description_2": "Bij Pim Detachering begrijpen we de snelle evolutie van de IT-industrie en de noodzaak voor bedrijven om voorop te lopen met innovatieve technologieën. Wij staan klaar om als betrouwbare partner te fungeren voor onze opdrachtgevers en tegelijkertijd onze IT-professionals te ondersteunen in hun carrièreontwikkeling.",
+            "cta": "Werkwijze"
+        },
+        "client": {
+            "title": "Samen bouwen aan uw IT-landschap",
+            "description": "Voor opdrachtgevers die streven naar excellentie in hun IT-projecten, is Pim Detachering uw toegewijde partner. Wij begrijpen de cruciale rol die IT speelt in het succes van uw onderneming. Daarom stellen wij u in staat om snel en effectief te schakelen met top IT-professionals die uw visie delen en realiseren. Van tijdelijke ondersteuning tot langdurige projecten, ons doel is om uw organisatie te voorzien van de technologische kracht die het nodig heeft om te innoveren en te excelleren.",
+            "services": {
+                "one": {
+                    "service_title": "Strategische",
+                    "service_description": "Ontdek maatwerk personeelsstrategieën die naadloos aansluiten op uw unieke projectvereisten. Wij leveren technisch talent dat innovatie en groei binnen uw organisatie stimuleert."
+                },
+                "two": {
+                    "service_title": "Partnerschap",
+                    "service_description": "Als uw strategische partner begrijpen we de uitdagingen van uw branche. Onze aanpak is erop gericht om de groei van uw bedrijf te versnellen door gekwalificeerd technisch personeel te leveren."
+                },
+                "three": {
+                    "service_title": "Flexibel",
+                    "service_description": "In een wereld die constant verandert, bieden wij de flexibiliteit die u nodig heeft. Onze IT-professionals zijn snel inzetbaar en aangepast aan de dynamische eisen van uw projecten."
+                },
+                "four": {
+                    "service_title": "Resultaatgericht",
+                    "service_description": "Met een grondige selectie van enkel top IT-experts garanderen wij resultaatgerichte bijdragen aan uw meest kritieke projecten. Onze professionals zijn uw sleutel tot succes."
+                }
+            },
+            "cta": "Opdrachtgevers"
+        },
+        "experience": {
+            "title": "Onze IT-professionals zijn uw sleutel tot succes",
+            "description": "Bij Pim Detachering zijn we trots op het leveren van IT-professionals die uw organisatie naar een hoger niveau tillen. Wij zijn gespecialiseerd in het vinden en plaatsen van top IT-talent in een breed scala aan sectoren. Onze expertise ligt in het verbinden van gespecialiseerde IT-professionals met uitdagende en verrijkende rollen in zowel start-ups als gevestigde bedrijven.",
+            "cta": "Neem contact"
+        },
+        "team": {
+            "title": "Ons team",
+            "subtitle": "Drijvende Krachten Achter Ons Succes",
+            "description": "Twee deskundigen die hart en ziel leggen in het verbinden van top IT-talent met de juiste uitdagingen. Hun passie voor matchmaking in de IT-sector is de sleutel tot ons succes.",
+            "cta": "Neem contact"
+        }
+    }
+}
